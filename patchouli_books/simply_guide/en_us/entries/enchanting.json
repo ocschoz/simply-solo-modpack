@@ -1,0 +1,31 @@
+{
+    "name": "Enchanting",
+    "icon": "minecraft:enchanting_table",
+    "category": "patchouli:guide",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "title": "Enchanting Reworked",
+            "item": "minecraft:enchanting_table",
+            "text": "Enchanting has been reworked into a $(thing)skill-tree$(). $(br2)Unlock branches with $(item)books$() found while exploring, no more villager trading or table lottery."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "title": "Building Bookshelves",
+            "item": "minecraft:chiseled_bookshelf",
+            "text": "$(item)Chiseled bookshelves$() should be built around the table. $(br2)Slot in an $(item)enchanted book$() to unlock its branch on the Enchanting Table."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "title": "Cost",
+            "item": "minecraft:lapis_lazuli",
+            "text": "Each tier costs $(thing)XP levels$() & $(item)lapis$(). $(br2)$(bold)You must unlock each tier in order$(), no skipping to high levels."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "title": "Repairing",
+            "item": "minecraft:experience_bottle",
+            "text": "$(item)Anvil$() XP costs are much lower for $(item)enchanted gear$()."
+        }
+    ]
+}

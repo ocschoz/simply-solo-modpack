@@ -1,0 +1,13 @@
+name = "Chat Tools"
+filename = "chattools-v2.3.18+1.20.1-fabric.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e0ae13bcf7ae9ab9bc517f29289eb69dba055218"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7614867
+project-id = 1453568

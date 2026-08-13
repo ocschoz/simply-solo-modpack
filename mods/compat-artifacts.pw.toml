@@ -1,0 +1,13 @@
+name = "Compat Artifacts"
+filename = "compatartifacts-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e057e58297a8bdc1bba1effd8a9f0777bdcf5521"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7323863
+project-id = 1403003

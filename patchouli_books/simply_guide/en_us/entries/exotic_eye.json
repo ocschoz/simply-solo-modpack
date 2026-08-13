@@ -1,0 +1,23 @@
+{
+    "name": "Exotic Eye",
+    "icon": "endrem:exotic_eye",
+    "category": "patchouli:main",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+			"item": "endrem:exotic_eye",
+            "text": "In order to obtain The Exotic Eye, you must defeat the Ghost of Captain Cornelia, a wandering soul of the notorious pirate, still seeking for revenge."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "aquamirae:captain_cornelia",
+			"scale": "0.7",
+			"rotate": "true"
+        },
+		{
+			"type": "patchouli:spotlight",
+			"item": "aquamirae:shell_horn",
+			"text": "Ice Maze are known to be on top of the Deep Frozen Ocean. There're shelter, outpost and ship filled with hostile mobs or mostly pillagers. While exploring the Ship, you might encounter the captain pillager, killing it drops a Shell Horn that can summon the Ghost of Captain Cornelia."
+        }		
+    ]
+}

@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:ranged",
+    "apotheosis:bow_tome",
+    "apotheosis:other_tome"
+  ],
+  "incompatible": []
+}

@@ -1,0 +1,24 @@
+
+#Core toggle for the belt slot system.
+[general]
+	enableBeltSlot = true
+	enableTotem = false
+	enableBeltLights = true
+	enableDynamicLightsCompat = true
+	#Range: -2000 ~ 2000
+	hudOffsetX = 0
+	#Range: -2000 ~ 2000
+	hudOffsetY = 0
+
+#Whitelist / blacklist for the belt slot.
+[rules]
+	allowedItems = ["minecraft:torch", "minecraft:lantern", "minecraft:soul_lantern", "minecraft:totem_of_undying", "minecraft:compass", "minecraft:recovery_compass", "minecraft:spyglass", "minecraft:goat_horn"]
+	allowedTags = ["forge:potions", "beltslot:allowed"]
+	deniedItems = []
+	deniedTags = []
+
+#Light level overrides for belt item dynamic lighting.
+[lights]
+	itemLightLevels = ["minecraft:torch=14", "minecraft:lantern=15", "minecraft:soul_torch=10", "minecraft:soul_lantern=10", "minecraft:glow_berries=8"]
+	tagLightLevels = ["forge:torches=14", "beltslot:light_sources=15"]
+

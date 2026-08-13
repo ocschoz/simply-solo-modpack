@@ -1,0 +1,6 @@
+#All of these accept decimal places
+maximum_health=500.0
+attack_damage=6.0
+armor_points=10.0
+movement_speed=0.23
+follow_range=256.0

@@ -1,0 +1,13 @@
+name = "Logs Fixer"
+filename = "logsfixer-forge-1.20.1-0.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "dc7a762f4e313eb6fce787551956b1d77ad110e2"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8051134
+project-id = 1504036

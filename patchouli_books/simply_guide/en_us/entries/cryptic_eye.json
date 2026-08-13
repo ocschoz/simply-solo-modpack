@@ -1,0 +1,33 @@
+{
+    "name": "Cryptic Eye",
+    "icon": "endrem:cryptic_eye",
+    "category": "patchouli:main",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+			"item": "endrem:cryptic_eye",
+            "text": "In order to obtain The Cryptic Eye, you must defeat Ignis, one of the most challenging bosses. Ignis has powerful strikes, as well as ranged shockwave attacks with his sword."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "cataclysm:ignis",
+			"scale": "0.7",
+			"rotate": "true"
+        },
+		{
+			"type": "patchouli:crafting",
+			"recipe": "cataclysm:flame_eye",
+			"text": "The journey to defeating Ignis leads you through the Burning Arena. It’s an immense, open-floor coliseum with spiral staircases."
+        },
+		{
+			"type": "patchouli:spotlight",
+			"item": "cataclysm:burning_ashes",
+			"text": "Can be obtained by defeating Ignited Revenant at the bottom level. On the upper level of the arena, is the Altar of Fire. Place a Burning Ashes inside, and it will summon Ignis."
+        },
+		{
+			"type": "patchouli:entity",
+            "entity": "cataclysm:ignited_revenant",
+			"scale": "0.7"
+        }			
+    ]
+}

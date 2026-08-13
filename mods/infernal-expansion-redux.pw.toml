@@ -1,0 +1,13 @@
+name = "Infernal Expansion Redux"
+filename = "infernalexp-forge-1.20.1-0.3.7.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "0a474bda0223423b17270fa4a78b4c0ee2a61b0f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7859959
+project-id = 1407992

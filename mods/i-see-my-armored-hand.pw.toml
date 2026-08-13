@@ -1,0 +1,13 @@
+name = "I See My Armored Hand"
+filename = "ismah-5.6.3-forge+1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "cfee48b1406cec9025d8b9cba9ab3eb826610e81"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8040045
+project-id = 1174111

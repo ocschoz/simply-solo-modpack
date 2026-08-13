@@ -1,0 +1,13 @@
+name = "Realistic Cobwebs"
+filename = "Realistic-Cobwebs-NeoForge-2.1.0-all.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e913d0032d6cfbd93eb9ca0025c7dc4c71c2ba5a"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5369496
+project-id = 250393

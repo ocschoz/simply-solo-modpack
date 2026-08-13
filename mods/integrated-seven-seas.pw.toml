@@ -1,0 +1,13 @@
+name = "Integrated  Seven Seas"
+filename = "ISS-1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f937607eae494fd1572986de8bc962e767d5935b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7737172
+project-id = 1482366

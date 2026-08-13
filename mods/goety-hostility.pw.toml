@@ -1,0 +1,13 @@
+name = "Goety Hostility"
+filename = "goetyhostility-1.4.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "70b324906e418c697e3a2f83fc858e594bad15a6"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8243134
+project-id = 1458529

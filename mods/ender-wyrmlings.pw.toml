@@ -1,0 +1,13 @@
+name = "Ender Wyrmlings"
+filename = "EnderWyrmlings-1.0.0-forge-1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "70154a21cc88f838e3b2c794ad4a8484077e3d44"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5704598
+project-id = 1099272

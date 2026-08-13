@@ -1,0 +1,8 @@
+
+#Setting
+[setting]
+	#Range: 48 ~ 480
+	DetectRange = 480
+	#Range: 60 ~ 1200
+	GlowDuration = 600
+

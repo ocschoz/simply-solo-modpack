@@ -1,0 +1,23 @@
+{
+    "name": "Witch Eye",
+    "icon": "endrem:witch_eye",
+    "category": "patchouli:main",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+			"item": "endrem:witch_eye",
+            "text": "In order to obtain The Witch Eye, you must defeat the Dead King, an undead that uses powerful blood spells and has multiple phases."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "irons_spellbooks:dead_king",
+			"scale": "0.7",
+			"rotate": "true"
+        },
+		{
+			"type": "patchouli:crafting",
+			"recipe": "irons_spellbooks:wayward_compass",
+			"text": "The Dead King is found in the Catacombs, which can be guided by the trapped soul finding its home."
+        }		
+    ]
+}

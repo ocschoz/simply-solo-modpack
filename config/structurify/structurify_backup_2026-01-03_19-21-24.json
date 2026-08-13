@@ -1,0 +1,154 @@
+{
+  "config_version": "2.0.11",
+  "config_datetime": "2026-01-03_19-20-38",
+  "general": {
+    "disable_all_structures": false,
+    "prevent_structure_overlap": true,
+    "enable_global_spacing_and_separation_modifier": false,
+    "global_spacing_and_separation_modifier": 1.0
+  },
+  "structure_namespaces": [],
+  "structures": [
+    {
+      "name": "ba_bt:land_tower",
+      "is_disabled": false,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "none",
+      "override_global_flatness_check": false,
+      "enable_flatness_check": true,
+      "flatness_check_allow_non_solid_blocks": false,
+      "override_global_biome_check": false,
+      "enable_biome_check": false,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ]
+    },
+    {
+      "name": "iceandfire:gorgon_temple",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin",
+      "override_global_biome_check": false,
+      "enable_biome_check": false,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ]
+    },
+    {
+      "name": "trials:trials_chambers",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "underground_structures",
+      "terrain_adaptation": "none",
+      "override_global_biome_check": false,
+      "enable_biome_check": false,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ]
+    }
+  ],
+  "structure_sets": [
+    {
+      "spacing": 360,
+      "separation": 236,
+      "name": "ba_bt:land_tower",
+      "salt": 121144999,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false
+    },
+    {
+      "spacing": 360,
+      "separation": 236,
+      "name": "ba_bt:ocean_tower",
+      "salt": 153511499,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false
+    },
+    {
+      "spacing": 36,
+      "separation": 24,
+      "name": "bosses_of_mass_destruction:lich_tower",
+      "salt": 1230784,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false
+    },
+    {
+      "spacing": 50,
+      "separation": 25,
+      "name": "cataclysm:acropolis",
+      "salt": 913530101,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false
+    },
+    {
+      "spacing": 50,
+      "separation": 25,
+      "name": "cataclysm:ancient_factory",
+      "salt": 319514301,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false
+    },
+    {
+      "spacing": 50,
+      "separation": 25,
+      "name": "cataclysm:burning_arena",
+      "salt": 533522197,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false
+    },
+    {
+      "spacing": 51,
+      "separation": 25,
+      "name": "cataclysm:cursed_pyramid",
+      "salt": 577299997,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false
+    },
+    {
+      "spacing": 51,
+      "separation": 25,
+      "name": "cataclysm:frosted_prison",
+      "salt": 1577172143,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false
+    },
+    {
+      "spacing": 51,
+      "separation": 30,
+      "name": "cataclysm:soul_black_smith",
+      "salt": 1984567320,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false
+    },
+    {
+      "spacing": 71,
+      "separation": 40,
+      "name": "cataclysm:sunken_city",
+      "salt": 1673928450,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false
+    },
+    {
+      "spacing": 1025,
+      "separation": 1024,
+      "name": "minecraft:pillager_outpost",
+      "salt": 944042472,
+      "frequency": 0.2,
+      "override_global_spacing_and_separation_modifier": false
+    }
+  ]
+}

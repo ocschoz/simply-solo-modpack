@@ -1,0 +1,13 @@
+name = "Chiseled Bookshelf Visualizer"
+filename = "(Fabric)Chiseled-Bookshelf-Visualizer-1.20-2.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "8d61096ca676e1733bddb9aa30bd1680786aa8ed"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4759551
+project-id = 913857

@@ -1,0 +1,6 @@
+
+[Enchantato-Loot]
+	#If you enable this, the 'DisabledEnchantments' will become 'AllowedEnchantments'
+	InvertedMode = false
+	DisabledEnchantments = ["aggrofix:aggrobaiting", "aggrofix:aggronizing", "ba_bt:depth_dropper", "ba_bt:core_temperature"]
+

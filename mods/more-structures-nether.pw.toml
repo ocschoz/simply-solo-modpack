@@ -1,0 +1,13 @@
+name = "More Structures | Nether"
+filename = "more_structures_nether-1.1.0-forge-1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "53c672e9c13c24c52708ff35af44d78d68be9de3"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6717468
+project-id = 1166920

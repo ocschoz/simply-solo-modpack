@@ -1,0 +1,13 @@
+name = "Mob Spawn Fix"
+filename = "mob_spawn_fix-0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "611baac4e1a8089e64339d99cd33fea1db37e04f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8456432
+project-id = 1589212

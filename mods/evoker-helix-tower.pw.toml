@@ -1,0 +1,13 @@
+name = "Evoker Helix Tower"
+filename = "evoker_helix_tower-1.0.0-forge-1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "bc1579ed81e04efd0c40cd4d668412017d671d8b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7567455
+project-id = 1452344

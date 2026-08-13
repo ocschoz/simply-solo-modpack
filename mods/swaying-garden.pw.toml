@@ -1,0 +1,13 @@
+name = "Swaying Garden"
+filename = "swaying_garden-1.20.1-forge-1.2.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "67cc62f658c73dd0cbdc27a50fbe00723ba21e20"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6925076
+project-id = 1203057

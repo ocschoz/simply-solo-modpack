@@ -1,0 +1,13 @@
+name = "True Darkness Compat"
+filename = "truedarknesscompat-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "6e72cd33d862161610d71e66b6bb014d13432d74"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8008217
+project-id = 1527367

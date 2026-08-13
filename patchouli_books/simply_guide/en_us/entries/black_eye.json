@@ -1,0 +1,28 @@
+{
+    "name": "Void Eye",
+    "icon": "endrem:black_eye",
+    "category": "patchouli:main",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+			"item": "endrem:black_eye",
+            "text": "In order to obtain The Void Eye, you must defeat the Harbinger, a very powerful boss guarding the Void. The Leviathan spawns homing orbs of explosion, uses portals to move around, spawns Abyss Mines, and attacks with its jaws and tentacles."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "cataclysm:the_leviathan",
+			"scale": "0.7",
+			"rotate": "false"
+        },
+		{
+			"type": "patchouli:crafting",
+			"recipe": "cataclysm:abyss_eye",
+			"text": "This artifact will help guide you to the Sunken City, a large underwater structure where the Leviathan can be found."
+        },
+		{
+			"type": "patchouli:crafting",
+			"recipe": "cataclysm:abyssal_sacrifice",
+			"text": "The boss of the structure can be summoned at the Altar of Abyss found in the center of the middle chamber. It is surrounded by portals on all sides. In order to summon it, one Abyssal Sacrifice must be placed inside the altar with a right-click."
+        }			
+    ]
+}

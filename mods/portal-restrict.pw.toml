@@ -1,0 +1,13 @@
+name = "Portal Restrict"
+filename = "portalrestrict-1.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c440a358d0f345203960ebaa9e7114e97b4ff4a7"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7444586
+project-id = 1400237

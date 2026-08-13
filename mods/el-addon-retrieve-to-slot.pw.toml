@@ -1,0 +1,13 @@
+name = "EL Addon Retrieve To Slot"
+filename = "elretrievetoslot-1.2.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "2020aa1ae3b92011e0b62d6df4b579a8286437cb"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7353956
+project-id = 1408950

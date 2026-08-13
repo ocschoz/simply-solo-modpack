@@ -1,0 +1,13 @@
+name = "JEI Transform"
+filename = "JEI Transform-1.20.1-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "81e005866f378cde0a54a68b7c496a2519b754ed"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8608683
+project-id = 1645554

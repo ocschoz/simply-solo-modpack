@@ -1,0 +1,31 @@
+{
+  "_about": "Mod Verifier rules. Edit this file and run /modverifier reload, or use the /modverifier commands which save automatically. Keys starting with _ are documentation and are ignored by the parser.",
+  "schemaVersion": 1,
+  "_help_mode": "OFF=no checks. WARN=run all checks and log violations but never kick. BLACKLIST_ONLY=kick if any blacklisted mod is present (required and optional lists ignored). REQUIRED_ONLY=kick if any required mod is missing or wrong version (optional and blacklist lists ignored). REQUIRED_AND_OPTIONAL=enforce required, allow optional mods (version-checked only if checkOptionalVersions is true), and reject blacklisted mods.",
+  "mode": "OFF",
+  "_help_entries": "required/blacklisted/optional entries: { \"modid\": \"<id>\", \"version\": \"<range or *>\", \"reason\": \"<optional text>\", \"hashes\": [\"<sha256>\", ...] }. version uses Maven syntax: '*' = any, '[1.2.0,)' = 1.2.0+, '[1.2.0,2.0.0)' = >=1.2.0 and <2.0.0. hashes is optional; if set, the client's reported jar hash must match one of the listed values. Hashes are ignored for the system mods minecraft, forge, mcp, javafml, lowcodefml, neoforge (their backing jar varies between dev and production environments and would never match cross-install).",
+  "required": [],
+  "blacklisted": [],
+  "optional": [],
+  "_help_allowUnlisted": "Only consulted when mode enforces required mods (REQUIRED_ONLY, REQUIRED_AND_OPTIONAL, WARN). If true, mods not on any consulted list are tolerated. If false, only mods on the lists the current mode consults may be present: REQUIRED_ONLY -> required only; REQUIRED_AND_OPTIONAL/WARN -> required + optional + blacklist.",
+  "allowUnlisted": false,
+  "_help_checkOptionalVersions": "If true, mods on the optional list are version-checked when present. If false, optional entries only document accepted mods without enforcing their version.",
+  "checkOptionalVersions": false,
+  "_help_exemptOps": "If true, server operators bypass all mod checks at login.",
+  "exemptOps": false,
+  "_help_exemptPlayers": "Player names (case-insensitive) that bypass all mod checks at login.",
+  "exemptPlayers": [],
+  "_help_kickScreen": "kickHeader/kickFooter: text shown at the top/bottom of the kick screen for failed players. Use \\n for line breaks. Remove the field to use the built-in default.",
+  "kickHeader": "Your mods don't match the server's\nFix the issues below before reconnecting:",
+  "kickFooter": "Edit kickHeader / kickFooter in rules.json to customize this message.",
+  "_help_auditRetentionDays": "Days of audit logs to keep under config/modverifier/audit/. 0 disables pruning (keep forever).",
+  "auditRetentionDays": 30,
+  "_help_shaders": "Shader pack allow-list. Clients report every pack present in their shaderpacks/ directory by sha256 hash; entries listed under shaders.allowed are accepted. mode: OFF=no checks, WARN=log only, ENFORCE=kick. allowUnlisted: if true, unknown packs in shaderpacks/ are tolerated; if false (default with ENFORCE), any unlisted pack causes a kick. requireShadersEnabled: if true, the player must have shaders actually turned on (not just installed). liveCheckEnabled: if true, clients re-report their active shader state every 10s and the server re-validates mid-session (warns or kicks per mode); set false to only validate at login. allowed entries: { \"name\": \"<display>\", \"sha256\": \"<hash>\", \"reason\": \"<optional>\" }.",
+  "shaders": {
+    "mode": "OFF",
+    "allowUnlisted": false,
+    "requireShadersEnabled": true,
+    "liveCheckEnabled": true,
+    "allowed": []
+  }
+}

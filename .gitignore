@@ -1,0 +1,8 @@
+# Cache tự sinh của Sinytra Connector (mỗi máy tự tạo lại khi chạy game, không cần sync)
+mods/.connector/
+
+# File export CurseForge (chỉ dùng để import, không cần đưa lên GitHub)
+*.zip
+
+# File config cá nhân (video/shader riêng từng người, không nên ép đồng bộ)
+optionsshaders.txt

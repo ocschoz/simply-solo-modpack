@@ -1,0 +1,13 @@
+name = "Castle Shift"
+filename = "castleshift-0.2.0+1.20.1-forge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "607b43f0298ead97bd4a29c8d37c01f230fec610"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7751453
+project-id = 1474573

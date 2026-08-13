@@ -1,0 +1,13 @@
+name = "Smooth Join"
+filename = "smoothjoin-1.20.1-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "54e3019625e84294ac36d257cba0936f6708778b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7613753
+project-id = 1457326

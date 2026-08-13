@@ -1,0 +1,13 @@
+name = "Jaki Versatile Structures: Nether Edition"
+filename = "jvsnether-forge-1.20.1-0.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "20cc23f823383b1e492590202ee6bc78e9be6a95"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7805785
+project-id = 1494598

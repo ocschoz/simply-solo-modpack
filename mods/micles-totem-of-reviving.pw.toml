@@ -1,0 +1,13 @@
+name = "Micle's Totem of Reviving"
+filename = "micles-totem-of-reviving-forge-1.20.1-2.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "139b383747c429bc7015587f5066924d5ed7d28f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5063159
+project-id = 479123

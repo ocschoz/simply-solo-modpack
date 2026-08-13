@@ -1,0 +1,13 @@
+name = "Geckolib armor overlay fix"
+filename = "geckolib_armor_overlay_fix-1.0.5.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "7be5f91beb351a9b46b1123eed68989727b4551b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7562275
+project-id = 1451393

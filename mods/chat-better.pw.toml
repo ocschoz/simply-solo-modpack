@@ -1,0 +1,13 @@
+name = "Chat Better"
+filename = "chat-better-0.1-beta.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "8e7a3ed08700409336c7f9593063ec16f8b385da"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8556335
+project-id = 1635175

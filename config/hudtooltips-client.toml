@@ -1,0 +1,76 @@
+
+[held_tooltip]
+	#Whether the held-item tooltip HUD is enabled (also controlled by the toggle key).
+	enabled = true
+	#Left anchor X for the held tooltip HUD.
+	#Range: 0 ~ 10000
+	hudX = 6
+	#Maximum width of the tooltip panel (wrapped).
+	#Range: 120 ~ 420
+	maxWidth = 190
+
+[opacity]
+	#Base panel opacity (0..255). Lower = more transparent.
+	#Range: 0 ~ 255
+	panel = 86
+	#Shadow opacity (0..255).
+	#Range: 0 ~ 255
+	shadow = 56
+	#Border opacity (0..255).
+	#Range: 0 ~ 255
+	border = 70
+	#Accent strip opacity (0..255).
+	#Range: 0 ~ 255
+	accent = 130
+	#Sheen highlight opacity (0..255).
+	#Range: 0 ~ 255
+	sheen = 22
+
+[colors]
+	#RGB hex colors (no alpha). Example: 0x4EDBFF. Defaults are muted/cool.
+	#Range: 0 ~ 16777215
+	blocksRGB = 5146367
+	#Range: 0 ~ 16777215
+	toolsRGB = 16734827
+	#Range: 0 ~ 16777215
+	foodsRGB = 16761933
+	#Range: 0 ~ 16777215
+	itemsRGB = 5493132
+	#Range: 0 ~ 16777215
+	potionsRGB = 13790207
+	#Range: 0 ~ 16777215
+	enchantedBooksRGB = 9137407
+	#Range: 0 ~ 16777215
+	armorRGB = 7067336
+
+[background_gradient]
+	#Per-category background gradient colors (RGB). Keep them DARK for legibility.
+	#Range: 0 ~ 16777215
+	blocksTop = 1187382
+	#Range: 0 ~ 16777215
+	blocksBottom = 461588
+	#Range: 0 ~ 16777215
+	toolsTop = 2757400
+	#Range: 0 ~ 16777215
+	toolsBottom = 525834
+	#Range: 0 ~ 16777215
+	foodsTop = 2761490
+	#Range: 0 ~ 16777215
+	foodsBottom = 591878
+	#Range: 0 ~ 16777215
+	itemsTop = 1190429
+	#Range: 0 ~ 16777215
+	itemsBottom = 395784
+	#Range: 0 ~ 16777215
+	potionsTop = 2232874
+	#Range: 0 ~ 16777215
+	potionsBottom = 656912
+	#Range: 0 ~ 16777215
+	enchantedBooksTop = 1577518
+	#Range: 0 ~ 16777215
+	enchantedBooksBottom = 460305
+	#Range: 0 ~ 16777215
+	armorTop = 1058090
+	#Range: 0 ~ 16777215
+	armorBottom = 395788
+

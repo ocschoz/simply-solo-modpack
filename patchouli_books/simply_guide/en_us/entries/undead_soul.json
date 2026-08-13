@@ -1,0 +1,28 @@
+{
+    "name": "Undead Soul",
+	"priority": "true",
+    "icon": "endrem:undead_soul",
+    "category": "patchouli:main",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+			"item": "endrem:undead_soul",
+            "text": "To step into the Nether, the Undead Soul is must obtained. It can only be done by defeating Night Lich, a skeletal creature that can fly and cast an assortment of magical abilities."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "bosses_of_mass_destruction:lich",
+			"scale": "0.7",
+			"rotate": "true"
+        },
+		{
+            "type": "patchouli:spotlight",
+			"item": "bosses_of_mass_destruction:soul_star",
+            "text": "The Lich Tower can be found in colder biomes. It’s here that players can summon the Night Lich, but only after obtaining some Soul Stars from defeating undead monsters."
+        },
+		{
+			"type": "patchouli:text",
+			"text": "It’s worth trying to collect at least five Soul Stars, as four will be required to summon the Night Lich. The extra is helpful in case one is lost. When right-clicking, Soul Stars will be released and point to the nearest Lich Tower. Four Chiseled Stone Altars are on one of the floors around the middle of the Lich Towers. The Night Lich will spawn when a Soul Star is placed in each Altar."
+		}
+    ]
+}

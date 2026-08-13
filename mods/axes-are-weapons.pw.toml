@@ -1,0 +1,13 @@
+name = "Axes Are Weapons"
+filename = "AxesAreWeapons-1.10.2-forge-1.20.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "17119919be1d84dd5091c4742fc9a0b83307816d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8110699
+project-id = 456457

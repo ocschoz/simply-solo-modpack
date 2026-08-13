@@ -1,0 +1,84 @@
+{
+	// 显示耐久
+	// Whether to show equipment durability
+	showDurability: false,
+	// 显示品质分
+	// Whether to show equipment score
+	showScore: true,
+	// 合并同类属性修改器
+	// Merge attribute modifiers of the same type in tooltips
+	mergeModifiers: true,
+	// 显示 MULTIPLY_BASE 和 MULTIPLY_TOTAL 的补充说明
+	// Show additional notes for MULTIPLY_BASE and MULTIPLY_TOTAL
+	showMultiplyOperationAdditional: true,
+	// 基础暴击率
+	// Base crit chance
+	baseCritChance: 0.01,
+	// 跳击基础暴击率
+	// Jump to attack base crit chance
+	jumpAttackCritChance: 0.1,
+	// 基础暴击伤害倍率
+	// Base crit damage multiplier
+	baseCritDamageMultiplier: 1.5,
+	// 属性应用于玩家制作
+	// AttributeModifier are applied to player crafting
+	appliedToCrafting: true,
+	// 属性应用于战利品箱子
+	// AttributeModifier are applied to loot chests
+	appliedToLoot: true,
+	// 属性应用于交易（村民等）
+	// AttributeModifier applied to merchant (eg. villager)
+	appliedToMerchant: true,
+	// 属性应用于怪物装备
+	// AttributeModifier are applied to equipped items on mobs
+	appliedToMob: true,
+	// 属性应用于世界生成（盔甲架、展示框、等）
+	// AttributeModifier are applied to world generation (Armor stands, Item frames, etc)
+	appliedToWorldGeneration: true,
+	// 属性应用于刷怪笼
+	// AttributeModifier are applied to spawner block
+	appliedToSpawnerBlock: true,
+	// 开启 DEBUG 模式，开启可能会有日志刷屏
+	debug: false,
+	// 重铸卷轴（Reforge Scroll）
+	// [{
+	//     // 卷轴的物品 ID
+	//     // The item ID of the scroll
+	//     id: "reforge_scroll_lv1",
+	//     // 卷轴加成，越高重铸出来的属性越好
+	//     // Scroll bonus, the higher the reforge stat, the better
+	//     bonus: -200,
+	//     // 重铸花费的经验值
+	//     // XP cost to reforge
+	//     cost: 10,
+	//     // 重铸增加的熟练度，不建议大于 1，最多支持两位小数
+	//     // Reforge increases proficiency and is not recommended to be greater than 1, with a maximum of two decimal places
+	//     proficiency: 0.1,
+	//     // 稀有度（Rarity）
+	//     // COMMON UNCOMMON RARE EPIC
+	//     rarity: "COMMON"
+	// },...]
+	reforgeScrolls: [
+		{
+			id: "reforge_scroll_lv1",
+			bonus: -200,
+			cost: 10,
+			proficiency: 0.1,
+			rarity: "COMMON"
+		},
+		{
+			id: "reforge_scroll_lv2",
+			bonus: 800,
+			cost: 20,
+			proficiency: 0.5,
+			rarity: "RARE"
+		},
+		{
+			id: "reforge_scroll_lv3",
+			bonus: 1500,
+			cost: 30,
+			proficiency: 1.0,
+			rarity: "EPIC"
+		}
+	]
+}

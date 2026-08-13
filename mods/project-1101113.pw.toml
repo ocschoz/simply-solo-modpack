@@ -1,0 +1,13 @@
+name = "project-1101113"
+filename = "witherite_armor-1.6.0-forge-1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "0262e9222402ddf47f9062abb44cbd499d7a1ce6"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5765875
+project-id = 1101113

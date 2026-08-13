@@ -1,0 +1,13 @@
+name = "SimpleStack"
+filename = "simplestack-1.20.1-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "742b148bd769ca3ad1e8e36a7a3a1cdc935d1bb8"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4587801
+project-id = 823065

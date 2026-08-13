@@ -1,0 +1,30 @@
+{
+    "name": "Equipment Attributes",
+    "icon": "minecraft:iron_sword",
+    "category": "patchouli:guide",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "title": "Equipment Attributes",
+            "item": "minecraft:iron_sword",
+            "text": "Every $(item)tool$() and $(item)armor$() piece may have a chance to provide extra $(thing)attributes$()."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "equipment_standard:reforge_table",
+            "text": "This workbench lets you reroll your equipment's $(thing)attribute$(), using your $(thing)exp$() and $(item)reforge scroll$(). $(br2)There are $(bold)3 tiers$() of scroll in total, each with different level of attributes."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "title": "Reroll",
+            "item": "minecraft:lapis_lazuli",
+            "text": "You can use $(item)lapis lazuli$() on the item with your anvil to reroll the $(thing)attributes$()."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "title": "Reroll",
+            "item": "minecraft:diamond",
+            "text": "You can use $(item)diamond$() on the item with your anvil to upgrade the $(thing)attributes$()."
+        }
+    ]
+}

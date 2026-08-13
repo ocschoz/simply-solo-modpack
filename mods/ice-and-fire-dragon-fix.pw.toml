@@ -1,0 +1,13 @@
+name = "Ice and Fire: Dragon Fix"
+filename = "iaf_dragons-1.0.6d.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "eeec61dad9ef16976d2690b5b0885ac6f8149db5"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8517738
+project-id = 1344291

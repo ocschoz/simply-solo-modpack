@@ -1,0 +1,27 @@
+
+["Party HUD Client"]
+	#Position of the party HUD overlay
+	#Allowed Values: TOP_LEFT, TOP_RIGHT, BOTTOM_LEFT, BOTTOM_RIGHT, CENTER_LEFT, CENTER_RIGHT, TOP_CENTER, BOTTOM_CENTER
+	overlayPosition = "CENTER_LEFT"
+	#Overlay style: STANDARD, MODERN or COMPACT
+	#Allowed Values: STANDARD, MODERN, COMPACT, RPG
+	overlayStyle = "STANDARD"
+	#Maximum number of nearby players to show in the HUD (1-6).
+	#Range: 1 ~ 6
+	maxTrackedPlayers = 4
+	#HUD opacity (0 = invisible, 255 = fully opaque).
+	#Range: 0 ~ 255
+	hudAlpha = 200
+	#Show player names on the party HUD.
+	showNames = true
+	#Health text mode: NONE, VALUE, PERCENT.
+	#Allowed Values: NONE, VALUE, PERCENT
+	healthTextMode = "VALUE"
+	#Global scale for party HUD bars (50-100, as percent of default size).
+	#Range: 50 ~ 100
+	barScale = 70
+
+[Development]
+	#DEV: Show local player in HUD for overlay testing (auto-pins self, simulates server data)
+	dev_show_self = false
+

@@ -1,0 +1,13 @@
+name = "Ember's Castles And Keeps"
+filename = "castles_and_keeps-1.0.9.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "344878749da5b0ffe624ece1cfa9a4f8e371e188"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8501828
+project-id = 1372864

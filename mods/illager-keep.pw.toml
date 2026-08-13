@@ -1,0 +1,13 @@
+name = "Illager Keep"
+filename = "illager_keep-1.0.0-forge-1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b5b8d13d6fb2eeb5f63650f07205c81f9fb00fd7"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6746690
+project-id = 1303164

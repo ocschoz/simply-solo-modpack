@@ -1,0 +1,72 @@
+[
+  {
+    "keyBinding": "key.shouldersurfing.toggle_first_person",
+    "label": "Toggle Third Person",
+    "iconItem": "iceandfire:cyclops_eye",
+    "context": "always",
+    "contextLogic": "OR",
+    "color": "#FFFFFF",
+    "scale": 0.5,
+    "showLabel": true,
+    "maxPresses": 1,
+    "resetOnLog": false,
+    "isRegex": false,
+    "dynamicIcon": false
+  },
+  {
+    "keyBinding": "key.shouldersurfing.toggle_camera_coupling",
+    "label": "Toggle Camera Coupling",
+    "iconItem": "immersive_armors:steampunk_helmet",
+    "context": "always",
+    "contextLogic": "OR",
+    "color": "#FFFFFF",
+    "scale": 0.5,
+    "showLabel": true,
+    "maxPresses": 1,
+    "resetOnLog": false,
+    "isRegex": false,
+    "dynamicIcon": false
+  },
+  {
+    "keyBinding": "keybinds.bettercombat.toggle_mine_with_weapons",
+    "label": "Toggle Combat",
+    "iconItem": "minecraft:iron_sword",
+    "context": "always",
+    "contextLogic": "OR",
+    "color": "#FFFFFF",
+    "scale": 0.5,
+    "showLabel": true,
+    "maxPresses": 1,
+    "resetOnLog": false,
+    "isRegex": false,
+    "dynamicIcon": false
+  },
+  {
+    "keyBinding": "key.curios.open.desc",
+    "label": "Open Curios Inventory",
+    "iconItem": "minecraft:chest",
+    "context": "always",
+    "contextLogic": "OR",
+    "color": "#FFFFFF",
+    "scale": 0.5,
+    "showLabel": true,
+    "maxPresses": 1,
+    "resetOnLog": false,
+    "isRegex": false,
+    "dynamicIcon": false
+  },
+  {
+    "keyBinding": "key.open_menu",
+    "label": "Open Mine Menu",
+    "iconItem": "minecraft:map",
+    "context": "always",
+    "contextLogic": "OR",
+    "color": "#FFFFFF",
+    "scale": 0.5,
+    "showLabel": true,
+    "maxPresses": 1,
+    "resetOnLog": true,
+    "isRegex": false,
+    "dynamicIcon": false
+  }
+]

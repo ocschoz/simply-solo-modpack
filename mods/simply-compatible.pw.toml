@@ -1,0 +1,13 @@
+name = "Simply Swords Modded Compatibility"
+filename = "simply_compatible-1.2.0-forge-1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "9682ce1eda801a94442902ae1f2f7d33aa7dc09d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6064785
+project-id = 1125351

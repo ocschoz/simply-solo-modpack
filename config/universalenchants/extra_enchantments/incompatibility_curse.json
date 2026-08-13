@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:breakable"
+  ],
+  "incompatible": [
+    "minecraft:loyalty",
+    "minecraft:riptide",
+    "minecraft:silk_touch",
+    "minecraft:channeling",
+    "minecraft:fortune"
+  ]
+}

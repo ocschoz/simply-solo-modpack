@@ -1,0 +1,48 @@
+{
+    "name": "Farming",
+    "icon": "minecraft:iron_hoe",
+    "category": "patchouli:guide",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "title": "Farming",
+            "item": "minecraft:iron_hoe",
+            "text": "This section provides information about $(thing)farming$() in $(item)Simply Journey$()."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "farmersdelight:rich_soil",
+            "text": "When used in place of soil, certain plants or crops planted on top of it will periodically receive extra growth stages, exactly as though grown with $(item)Bone Meal$(). $(br2)Additionally, farmland tilled from $(item)Rich Soil$() cannot be trampled. $(br2)Rich Soil Farmland must be watered like any other farmland."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "farmersdelight:stove",
+            "text": "$(item)Stoves$() can be extinguished by using a $(item)water bucket$() on them, or using a $(item)shovel$() on it. $(br2)The player can place raw food on a lit Stove by using the food item on it - up to $(bold)6$()."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "farmersdelight:skillet",
+            "text": "The player can place raw food on a $(item)Skillet$() by using the food item on it. $(br2)A $(item)Campfire$(), $(item)Stove$(), or $(item)Fire$() must be placed under the Skillet in order to cook items."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "farmersdelight:cooking_pot",
+            "text": "Its interface can be opened by pressing the use item button on it. $(br2)A $(item)Campfire$(), $(item)Stove$(), $(item)Magma Block$(), $(item)Lava$() or $(item)Fire$() must be placed under the Cooking Pot in order to cook items."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "farmersdelight:cutting_board",
+            "text": "When the correct tool is used on a valid item, it will be broken down into $(bold)1-4$() different outputs, which are swiped sideways. $(br2)There are a few categories for usages."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "quark:automation/crafting/feeding_trough",
+            "text": "When right clicked, a menu will pop up where you can put food inside it. $(br2)Nearby animals will flock to the trough to eat the food within."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "fishermens_trap:fishtrap_farmersdelight",
+            "text": "A $(item)fish trap$() as a means to passively collect fish at the cost of crops. $(br2)The fish trap must be submerged in a $(thing)water biome$() such as lakes oceans rivers otherwise nothing will be caught."
+        }
+    ]
+}

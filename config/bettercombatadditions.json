@@ -1,0 +1,35 @@
+{
+  "enableDamageModifiers": true,
+  "enableSpeedModifiers": true,
+  "enablePoseSwap": true,
+  "enableAnimationSwap": true,
+  "enableAttributeModifiers": true,
+  "enableJumpCrit": true,
+  "requireFullAttackStrength": true,
+  "jumpCritDamageMultiplier": 1.5,
+  "playCritSound": true,
+  "excludedItems": [],
+  "oneHandedTwoHandWeaponDamageMultiplier": 0.5,
+  "twoHandedOneHandWeaponDamageMultiplier": 1.1,
+  "oneHandedTwoHandWeaponSpeedMultiplier": 0.6,
+  "twoHandedOneHandWeaponSpeedMultiplier": 1.25,
+  "oneHandedTwoHandModifiers": [
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "operation": "multiply_total",
+      "amount": -0.1
+    },
+    {
+      "attribute": "minecraft:generic.attack_knockback",
+      "operation": "addition",
+      "amount": -1.0
+    }
+  ],
+  "twoHandedOneHandModifiers": [
+    {
+      "attribute": "minecraft:generic.attack_knockback",
+      "operation": "addition",
+      "amount": 1.0
+    }
+  ]
+}

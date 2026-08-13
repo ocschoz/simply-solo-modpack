@@ -1,0 +1,13 @@
+name = "project-1084974"
+filename = "create_lt-1.0.1-forge-mc1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c697ea1e9f0527602e4c3d222e5f4fd92e27fd26"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5640269
+project-id = 1084974

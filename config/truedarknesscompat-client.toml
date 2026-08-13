@@ -1,0 +1,52 @@
+
+#True Darkness Compat — Rail A (universal darknessFactor) settings.
+[railA]
+	#Master switch. When false, no TD darkening is fed to shader packs.
+	enabled = true
+	#Multiplier applied to TD's coarse darkening before it is sent to
+	#the shader pack via the darknessFactor uniform. 1.0 = stock,
+	#values above 1.0 push BSL/Complementary's vignette harder.
+	#Range: 0.0 ~ 2.0
+	intensity = 1.0
+	#When true, prints sky/darkness factor values once per shader load.
+	debugLogging = false
+
+#Rail B (per-pack call-site injection) settings.
+[railB]
+	#When true, rewrites known shader pack lighting math at preprocess
+	#time so TD's curve replaces the pack's outdoor ambient floor.
+	#Currently supports BSL v8.x. Disable to fall back to prelude only.
+	patching = true
+
+#Held-item light standardization (Rail B).
+[heldLight]
+	#When true, normalizes the held-item light value before the pack's
+	#falloff math so dim modded items reach a useful navigation range
+	#and bright modded items are capped near a vanilla torch/lantern.
+	#When false, td_normHeld() degenerates to identity.
+	standardize = true
+	#Minimum normalized emission for any non-zero held light source.
+	#A modded item that emits 1 is lifted to this value before falloff.
+	#4.0 ≈ a sea-pickle-tier glow; raise for stronger floor.
+	#Range: 0.0 ~ 15.0
+	floor = 4.0
+	#Maximum normalized emission. A modded item that emits 15 is
+	#clamped to this value so it cannot reach further than a torch.
+	#14.0 matches vanilla torch emission.
+	#Range: 0.0 ~ 15.0
+	ceiling = 14.0
+	#Curve shape between floor and ceiling. 1.0 = linear remap,
+	#0.5 = sqrt (compresses high end so torch ≈ lantern ≈ glowstone),
+	#values approaching 0 flatten everything to the ceiling.
+	#Range: 0.01 ~ 2.0
+	gamma = 0.5
+
+#Cave / no-skylight darkness multiplier (Rail B).
+[caves]
+	#Multiplier applied to the cave-only ambient floor on supported
+	#shader packs (currently Sildur's). 1.0 = pack stock, 0.5 = caves
+	#are half as bright, 0.0 = caves rely entirely on torches/emissives.
+	#Inert when the TD master switch is off.
+	#Range: 0.0 ~ 1.0
+	dim = 0.0
+

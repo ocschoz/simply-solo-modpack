@@ -1,0 +1,39 @@
+
+["Lag Optimizer Settings"]
+	#Enable mob limiting per chunk
+	enableMobLimiting = true
+	#Max number of mobs per chunk before limiting
+	#Range: 1 ~ 100
+	maxEntityPerChunk = 6
+	#Enable AI disabling for mobs far from players
+	enableAIDisabling = true
+	#Radius (blocks) around mobs to check for nearby players before disabling AI
+	#Range: 8 ~ 128
+	disableAiRadius = 48
+	#Exclude boss mobs (Warden, Wither, Ender Dragon) from AI disabling
+	excludeBosses = true
+	#Disable AI for mobs in any dimension with no players nearby
+	disableAiForDistantMobs = false
+	#Enable random tick speed adjustment based on server TPS
+	enableTickScaling = true
+	#TPS threshold to consider server as lagging
+	#Range: 1 ~ 20
+	lowTpsThreshold = 15
+	#Minimum random tick speed when TPS is low
+	#Range: 1 ~ 100
+	minRandomTickSpeed = 1
+	#Normal random tick speed when TPS is stable
+	#Range: 1 ~ 100
+	normalRandomTickSpeed = 3
+	#Enable logging of high-entity chunks for debugging
+	logLaggyEntities = false
+	#Ticks between each entity log scan (default 200 = 10s)
+	#Range: 20 ~ 1200
+	logIntervalTicks = 200
+	#Disable redstone updates for performance
+	disableRedstoneUpdates = true
+	#Disable rail updates for performance
+	disableRailUpdates = true
+	#Disable fluid updates for performance
+	disableFluidUpdates = true
+

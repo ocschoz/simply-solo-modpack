@@ -1,0 +1,13 @@
+name = "Epic RPG:  RPG/Souls Mode"
+filename = "combatreset-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "21fe837614095421fffa15a87f2272cb63f16285"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7034235
+project-id = 1353431

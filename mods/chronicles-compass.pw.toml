@@ -1,0 +1,16 @@
+name = "Chronicles Compass"
+filename = "chroniclescompass-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "75108302704d7a0b2615f8feb107dd1c472f475e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8524054
+project-id = 1628445
+
+[option]
+optional = true

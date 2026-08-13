@@ -1,0 +1,13 @@
+name = "Illager Structures"
+filename = "illagerstructures-forge-1.20.1-0.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "6c2772e7e979edd22aba260550d6187307d4e1a8"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8039952
+project-id = 1533966

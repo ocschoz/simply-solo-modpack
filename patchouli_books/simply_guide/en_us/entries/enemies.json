@@ -1,0 +1,17 @@
+{
+    "name": "Enemies",
+    "icon": "minecraft:creeper_head",
+    "category": "patchouli:guide",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "title": "Mobs Scale With Time & Distance",
+            "text": "$(li)The longer you play and the farther from spawn, the better gear mobs carry$(li)Rare mob gear chance rises every $(thing)[X] days$()$(li)Past $(thing)[X] blocks$() from spawn, gear tier rises every extra $(thing)[X] blocks$()"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Bosses: Autoleveling",
+            "text": "$(li)Boss level scales with $(thing)distance from spawn$(), capped at $(item)Level 100$()$(li)Each extra player in the fight adds $(item)bonus health$()$(li)Check distance and gear up before engaging - groups mean longer fights"
+        }
+    ]
+}

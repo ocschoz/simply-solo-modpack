@@ -1,0 +1,13 @@
+name = "goety-fix"
+filename = "goety-apostle-fix-1.10.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "57464fa5a4c04c0df8003208d015becc0fb06dad"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8323587
+project-id = 1567856

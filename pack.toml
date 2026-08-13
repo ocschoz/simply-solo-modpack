@@ -1,0 +1,13 @@
+name = "Simply Solo"
+author = "ocschoz"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "b5ca423ced0f7815c154e04bd6440a36ef600fc4a20d686c4470ce6d2325509b"
+
+[versions]
+forge = "47.4.20"
+minecraft = "1.20.1"

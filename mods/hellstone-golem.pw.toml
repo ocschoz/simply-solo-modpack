@@ -1,0 +1,13 @@
+name = "Snow's Bosses: Hellstone Golem"
+filename = "hellstone_golem-1.0.3-forge-1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "5bae0ae3db6295c611fa5f04f113c8608d269a3d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6790012
+project-id = 1307077

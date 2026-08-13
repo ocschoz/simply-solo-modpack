@@ -1,0 +1,13 @@
+name = "[BLT] Boats, Lily, Tolerance"
+filename = "blt-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ba60f841bd307618576458fdee870ff6cd70095c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7196077
+project-id = 1380029

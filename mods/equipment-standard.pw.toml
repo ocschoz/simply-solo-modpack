@@ -1,0 +1,13 @@
+name = "Equipment Standard"
+filename = "EquipmentStandard-1.4.2+mc1.20-forge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a43d71d5ef23512ae68dd93d20be6a4128daf7e1"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4920687
+project-id = 929601

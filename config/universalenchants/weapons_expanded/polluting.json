@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:weapon",
+    "apotheosis:other_tome",
+    "apotheosis:weapon_tome",
+    "cataclysm:gauntlet_of_guard",
+    "cataclysm:gauntlet_of_bulwark",
+    "cataclysm:the_incinerator",
+    "cataclysm:meat_shredder",
+    "cataclysm:void_forge",
+    "cataclysm:tidal_claws",
+    "cataclysm:infernal_forge",
+    "mowziesmobs:spear",
+    "mowziesmobs:naga_fang_dagger",
+    "twilightforest:block_and_chain",
+    "farmersdelight:skillet",
+    "enigmaticlegacy:the_infinitum",
+    "enigmaticlegacy:eldritch_pan"
+  ],
+  "incompatible": [
+    "minecraft:riptide",
+    "minecraft:silk_touch",
+    "minecraft:fortune",
+    "minecraft:channeling",
+    "minecraft:loyalty"
+  ]
+}

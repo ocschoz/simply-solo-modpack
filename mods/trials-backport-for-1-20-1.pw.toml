@@ -1,0 +1,13 @@
+name = "Trials Backport"
+filename = "Trials.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "3df818fb179a84cb391026072d19ccd5ed63fbf8"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8108742
+project-id = 1546910

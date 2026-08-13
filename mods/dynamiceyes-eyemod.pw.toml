@@ -1,0 +1,13 @@
+name = "DynamicEyes (EyeMod)"
+filename = "forge_1.20.1_eyemod_1.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "68d15f986994f36a8a3952898b9729921899f78b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8548432
+project-id = 1597093

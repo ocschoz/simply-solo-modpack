@@ -1,0 +1,13 @@
+name = "Compat API"
+filename = "compatapi-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "28ed706601099bc76f1e02da4c238fa2114b4aef"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7268744
+project-id = 1393220

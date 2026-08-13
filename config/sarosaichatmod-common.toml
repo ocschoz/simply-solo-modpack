@@ -1,0 +1,27 @@
+
+#Gemini AI Chat Mod Configuration
+[api]
+	#Your Google Gemini API Key
+	geminiApiKey = "AIzaSyA4eaZcglw9k1sUVfKA48Y-9DrJkB7Fbfk"
+	#The Gemini model to use. Available free-tier models:
+	#- gemini-2.5-flash-lite (recommended, 1000 requests/day)
+	#- gemini-2.5-flash (50 requests/day)
+	#- gemini-1.5-flash (older but stable)
+	geminiModel = "gemini-2.5-flash-lite"
+
+[chat]
+	#If enabled, the AI will respond to chat messages
+	respondToTextMessages = true
+
+[features]
+	#If enabled, the AI can perform game-changing actions:
+	#- Give any item to the player (including dragon heads, command blocks, etc.)
+	#- Remove items from the player's inventory
+	#- Clear the player's entire inventory
+	#- Kill the player
+	#- Apply status effects
+	#- Change weather and time
+	#- Execute any Minecraft command
+	#When disabled, the AI will explain why these features aren't available.
+	enableCheatAI = false
+

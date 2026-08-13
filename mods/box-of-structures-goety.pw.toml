@@ -1,0 +1,13 @@
+name = "Box of Structures: Goety"
+filename = "bosgoety-1.20.1-1.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "66a1d43cabc4d315f6e213e4560be25e6a8558f5"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8594328
+project-id = 1467540

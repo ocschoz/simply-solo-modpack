@@ -1,0 +1,13 @@
+name = "Mods Fixer"
+filename = "modfixer-0.0.7.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e4cfc8a729618bb35409accd4d575d266bfee4ce"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7945372
+project-id = 1416383

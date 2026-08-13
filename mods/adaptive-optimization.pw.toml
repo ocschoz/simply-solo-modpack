@@ -1,0 +1,13 @@
+name = "Adaptive Optimization(reborn)"
+filename = "adaptiveoptimization-8.5.5.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "9a82637971a70282798110df2e45c2cbf7f2ca41"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7897393
+project-id = 1090956

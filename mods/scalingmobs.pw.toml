@@ -1,0 +1,13 @@
+name = "ScalingMobs"
+filename = "scalingmobs-1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "05e04a31f40baf9990beb948ec1167a79d2bb1c4"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7823796
+project-id = 1497017

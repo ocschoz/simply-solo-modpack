@@ -1,0 +1,13 @@
+name = "Better Animal Feeding"
+filename = "BetterAnimalFeeding-1.20.1-Fabric-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "2fb4ea75918e882f40cbf61997a967b6b6d66a89"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7208120
+project-id = 1382418

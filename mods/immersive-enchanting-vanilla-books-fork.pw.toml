@@ -1,0 +1,13 @@
+name = "Immersive Enchanting (Vanilla Books Fork)"
+filename = "immersiveenchanting-4.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "9819666dd0668e9d8b33ad6effa17d2ea413dc55"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8002766
+project-id = 1527274

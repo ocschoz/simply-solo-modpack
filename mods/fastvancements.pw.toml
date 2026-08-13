@@ -1,0 +1,13 @@
+name = "Fastvancements"
+filename = "fastvancements-1.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "40f858bd6c7d7de6491c3d9f902e2903ab716c9c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8478037
+project-id = 1573383

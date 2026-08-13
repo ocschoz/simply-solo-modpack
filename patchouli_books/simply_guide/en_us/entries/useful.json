@@ -1,0 +1,37 @@
+{
+    "name": "Useful Stuff",
+    "icon": "minecraft:crafting_table",
+    "category": "patchouli:guide",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "minecraft:cobweb",
+            "text": "$(item)Torch$() and $(item)Flint & Steel$() now can burn $(item)cobwebs$() with Right-Click."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "sawmill:sawmill",
+            "text": "A crafting station which allows you to craft any $(item)wooden items$()."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "convenientcurioscontainer:convenient_container",
+            "text": "$(li)Right clicking an item that's inside the container will equip it on the first available $(thing)Curio slot$(), if another item was already in that slot, it will swap the items.$(li)Shift right clicking an item that's inside the container will equip it on the second available Curio slot, if another item was already in that slot, it will swap the items.$(li)Shift left clicking an item that's inside the container will try to equip it in the last available Curio slot, it will not swap items."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "easel_does_it:easel",
+            "text": "The $(item)Easel$() is a new workstation that allows players to set painting items to always place the variant they want."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "minecraft:fletching_table",
+            "text": "You can make different tiers of $(item)arrows$() using different tips, and then modify them using different special ingredients."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "labels:label",
+            "text": "By shift-clicking on a $(item)Label$() with an item you'll be able to change its image, showing that item you selected."
+        }
+    ]
+}

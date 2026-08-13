@@ -1,0 +1,108 @@
+{
+    "name": "Trims",
+    "icon": "minecraft:sentry_armor_trim_smithing_template",
+    "category": "patchouli:guide",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "title": "Trims",
+            "item": "minecraft:sentry_armor_trim_smithing_template",
+            "text": "This section provides information about $(thing)armor trims$() in $(item)Simply Journey$(). $(br2)By default, if you wear three armors with the same trim, it will give you a $(bold)level 1$() effect, while if you wear all four parts of the armor with the same trim, the effect will be $(bold)level 2$(). $(br2)Now, all minerals are valid and $(item)resin$() has also been added, which will give night vision."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "minecraft:sentry_armor_trim_smithing_template",
+            "text": "Full set grants $(item)Resistance$()."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "minecraft:dune_armor_trim_smithing_template",
+            "text": "Full set grants $(item)Speed$()."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "minecraft:coast_armor_trim_smithing_template",
+            "text": "Full set grants $(item)Water Breathing$()."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "minecraft:wild_armor_trim_smithing_template",
+            "text": "Full set grants $(item)Hero of the Village$()."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "minecraft:ward_armor_trim_smithing_template",
+            "text": "Full set grants $(item)Absorption$()."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "minecraft:eye_armor_trim_smithing_template",
+            "text": "Full set grants $(item)Regeneration$()."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "minecraft:vex_armor_trim_smithing_template",
+            "text": "Full set grants $(item)Invisibility$()."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "minecraft:tide_armor_trim_smithing_template",
+            "text": "Full set grants $(item)Conduit Power$()."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "minecraft:snout_armor_trim_smithing_template",
+            "text": "Full set grants $(item)Fire Resistance$()."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "minecraft:rib_armor_trim_smithing_template",
+            "text": "Full set grants $(item)Haste$()."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "minecraft:spire_armor_trim_smithing_template",
+            "text": "Full set grants $(item)Strength$()."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "minecraft:wayfinder_armor_trim_smithing_template",
+            "text": "Full set grants $(item)Slow Falling$()."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "minecraft:shaper_armor_trim_smithing_template",
+            "text": "Full set grants $(item)Luck$()."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "minecraft:silence_armor_trim_smithing_template",
+            "text": "Full set grants $(item)Health Boost$()."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "minecraft:raiser_armor_trim_smithing_template",
+            "text": "Full set grants $(item)Saturation$()."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "minecraft:host_armor_trim_smithing_template",
+            "text": "Full set grants $(item)Glowing$()."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "minecraft:silence_armor_trim_smithing_template",
+            "text": "Full set grants $(item)Health Boost$()."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "trials:flow_trim_template",
+            "text": "Full set grants $(item)Jump Boost$()."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "trials:bolt_trim_template",
+            "text": "Full set grants $(item)Dolphins Grace$()."
+        }
+    ]
+}

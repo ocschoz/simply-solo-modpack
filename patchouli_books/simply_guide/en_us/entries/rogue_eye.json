@@ -1,0 +1,23 @@
+{
+    "name": "Tribal Eye",
+    "icon": "endrem:rogue_eye",
+    "category": "patchouli:main",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+			"item": "endrem:rogue_eye",
+            "text": "In order to obtain The Tribal Eye, you must defeat the Umvuthi the Sunbird, a heliomacer who serves as the creator of the Abavuthana."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "mowziesmobs:umvuthi",
+			"scale": "0.7",
+			"rotate": "true"
+        },
+		{
+			"type": "patchouli:crafting",
+			"recipe": "mowzies_cataclysm:sun_eye",
+			"text": "This artifact will help guide you to the Umvuthana Groves that generate naturally in the Savannas. They are the main inhabited place of the Abavuthana and their creator, Umvuthi."
+        }		
+    ]
+}

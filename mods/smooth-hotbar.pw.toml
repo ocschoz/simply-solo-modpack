@@ -1,0 +1,13 @@
+name = "Smooth Hotbar"
+filename = "smoothhotbar-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a50802c62ef7192a7c7023253a8fb0695b0471f8"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8486134
+project-id = 1620539

@@ -1,0 +1,13 @@
+name = "LighterCitadel"
+filename = "lightercitadel-1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "42ed1aa22a985cbba824cb87b679a1776e36b6b1"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8511845
+project-id = 1625973

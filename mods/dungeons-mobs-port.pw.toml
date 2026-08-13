@@ -1,0 +1,13 @@
+name = "Dungeons Mobs Port"
+filename = "dungeonsmobs-2.2.1-all.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f34d9b2a5b80cd005210e13a6d291d0fb5da3551"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8508807
+project-id = 1214518

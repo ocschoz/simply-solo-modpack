@@ -1,0 +1,132 @@
+{
+  "rules": [
+    {
+      "type": "INCOMPATIBLE",
+      "modIds": [
+        "jei",
+        "rei",
+        "emi"
+      ],
+      "title": "Recipe Viewer Conflict",
+      "description": "JEI, REI, and EMI all provide recipe viewing functionality. Having more than one can cause severe UI lag and keybind conflicts.",
+      "recommendation": "Keep only ONE: JEI is the most stable for Forge, EMI is the most modern."
+    },
+    {
+      "type": "INCOMPATIBLE",
+      "modIds": [
+        "optifine",
+        "oculus"
+      ],
+      "title": "Shaders Engine Conflict",
+      "description": "Optifine and Oculus both try to manage Shaders. This will result in a crash or a black screen.",
+      "recommendation": "Remove Optifine. Oculus + Rubidium/Embeddium is much better for performance on 1.20.1."
+    },
+    {
+      "type": "INCOMPATIBLE",
+      "modIds": [
+        "optifine",
+        "rubidium"
+      ],
+      "title": "Rendering Pipeline Conflict",
+      "description": "Optifine is incompatible with modern performance mods like Rubidium/Embeddium.",
+      "recommendation": "Choose Rubidium for better FPS, or Optifine if you specifically need its unique features."
+    },
+    {
+      "type": "INCOMPATIBLE",
+      "modIds": [
+        "rubidium",
+        "embeddium"
+      ],
+      "title": "Sodium Fork Conflict",
+      "description": "Rubidium and Embeddium are both forks of Sodium. They cannot run together.",
+      "recommendation": "Remove Rubidium. Embeddium is currently the most updated and compatible version."
+    },
+    {
+      "type": "DUPLICATE",
+      "modIds": [
+        "journeymap",
+        "xaerominimap",
+        "xaeroworldmap"
+      ],
+      "title": "Multiple Maps Detected",
+      "description": "You have multiple map mods installed. This wastes RAM and clutters the screen.",
+      "recommendation": "Keep only JourneyMap OR the Xaero\u0027s suite (Minimap + World Map)."
+    },
+    {
+      "type": "INCOMPATIBLE",
+      "modIds": [
+        "canary",
+        "radium"
+      ],
+      "title": "Lithium Fork Conflict",
+      "description": "Canary and Radium are both ports of Lithium. Running both will cause logic conflicts.",
+      "recommendation": "Keep only Canary for 1.20.1."
+    },
+    {
+      "type": "INCOMPATIBLE",
+      "modIds": [
+        "starlight",
+        "phosphor"
+      ],
+      "title": "Lighting Engine Conflict",
+      "description": "Multiple lighting engine optimizations detected.",
+      "recommendation": "In 1.20.1, the base game lighting is already optimized. Starlight is often unnecessary or can cause issues with some shaders."
+    },
+    {
+      "type": "INCOMPATIBLE",
+      "modIds": [
+        "betterfps",
+        "ferritecore"
+      ],
+      "title": "Memory Optimization Conflict",
+      "description": "Some older \u0027BetterFPS\u0027 ports conflict with FerriteCore\u0027s memory management.",
+      "recommendation": "Keep FerriteCore; it is the industry standard for RAM reduction in 1.20.1."
+    },
+    {
+      "type": "MIXIN_CONFLICT",
+      "modIds": [
+        "create",
+        "create_connected",
+        "create_lazy_engines"
+      ],
+      "title": "Create Addon Conflict",
+      "description": "Detected multiple Create addons that modify the same engine logic, often leading to Mixin crashes.",
+      "recommendation": "Check the logs for \u0027Mixin Transformation\u0027 errors and remove the offending addon."
+    },
+    {
+      "type": "INCOMPATIBLE",
+      "modIds": [
+        "fastload",
+        "dashloader"
+      ],
+      "title": "Loading Optimizer Conflict",
+      "description": "FastLoad and DashLoader both modify the world/resource loading sequence.",
+      "recommendation": "Remove DashLoader as it is known to break many Forge mods."
+    },
+    {
+      "type": "VERSION_MISMATCH",
+      "modIds": [
+        "alexsmobs",
+        "citadel"
+      ],
+      "title": "Library Version Warning",
+      "description": "Alex\u0027s Mobs is extremely sensitive to the version of Citadel installed.",
+      "recommendation": "Update Citadel to the latest version available for 1.20.1."
+    },
+    {
+      "type": "INCOMPATIBLE",
+      "modIds": [
+        "conventer",
+        "connector"
+      ],
+      "title": "Mod Loader Bridge Conflict",
+      "description": "Multiple attempts to bridge Fabric mods to Forge detected.",
+      "recommendation": "Use only Sinytra Connector for 1.20.1 and ensure all dependencies are met."
+    }
+  ],
+  "modGuardEnabled": true,
+  "ignoredMods": [],
+  "enableLogAnalysis": true,
+  "enableJarScanning": true,
+  "enableMixinDetection": true
+}

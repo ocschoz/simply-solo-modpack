@@ -1,0 +1,26 @@
+{
+	// Forward Lunge on attack
+	"moveAttack": true,
+	// Coefficient applied to lunge impulse when moving in a direction more than 90 degrees away from look direction (0 = no backwards lunge, 1 = full lunge)
+	"backwardsLungeCoeff": 0.4000000059604645,
+	// Forward Lunge decay coefficient
+	"impulseCoeff": 0.20000000298023224,
+	// Forward Lunge max speed coefficient
+	"maxImpulse": 1.2000000476837158,
+	// Impact recoil on attacker when hitting enemy
+	"impactRecoil": true,
+	// Enemy Directional Impact Move
+	"impactEnemy": true,
+	// Enemy directional coefficient
+	"dirCoeff": 1.0,
+	// Attack Particles
+	"particles": true,
+	// Hitstop on Self
+	"hitstopSelf": true,
+	// Hitstop on Enemies
+	"hitstopEnemies": true,
+	// Enable Holster Mode (H key)
+	"holster": true,
+	// Holster Sprint Speed Boost multiplier
+	"holsterBoost": 1.399999976158142
+}

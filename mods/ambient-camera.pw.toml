@@ -1,0 +1,13 @@
+name = "Ambient Camera"
+filename = "ambient_camera-forge-1.20.1-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "18c0350040da7c7a867989bbd89f036878c2aad6"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8531177
+project-id = 1628774

@@ -1,0 +1,13 @@
+name = "JEI Enchants"
+filename = "JEI Enchants-1.20.1-1.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "9e5a67afeebbc29ac0e7162a8b31b498a3adb437"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7458017
+project-id = 1427779

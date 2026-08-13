@@ -1,0 +1,51 @@
+
+[ambientCamera]
+	#Master switch for Ambient Camera.
+	enabled = true
+	#Seconds without keyboard or mouse input before the cinematic camera starts.
+	#Range: 5 ~ 3600
+	idleSeconds = 30
+	#Hide the HUD while Ambient Camera is active. The previous HUD state is restored on exit.
+	hideHud = true
+	#Show a short action-bar message when the automatic camera starts or stops.
+	showStatusMessages = false
+	#Seconds each player, scenery, or mob shot remains on screen before the next cut.
+	#Range: 4.0 ~ 120.0
+	shotDurationSeconds = 12.0
+	#Cut instantly to the next camera angle instead of flying between angles.
+	hardCuts = true
+	#Transition effect: 0 none, 1 fade to black, 2 fade to white, 3 horizontal wipe, 4 vertical wipe, 5 cross dissolve, 6 random vertical block wipe, 7 random horizontal block wipe.
+	transitionEffect = 1
+	#Seconds used for each half of the transition: cover and reveal.
+	#Range: 0.1 ~ 3.0
+	fadeDurationSeconds = 1.0
+	#Global multiplier for subtle camera motion inside a shot.
+	#Range: 0.0 ~ 4.0
+	cameraSpeed = 0.7
+	#Tracking softness inside a shot.
+	#Range: 0.1 ~ 8.0
+	transitionSeconds = 0.8
+	#How far ahead scenery shots search for a landscape focus point.
+	#Range: 8.0 ~ 64.0
+	sceneryFocusDistance = 32.0
+	#Allow dedicated shots to focus on a nearby visibly moving mob.
+	enableMobFocus = true
+	#Maximum distance for selecting a moving mob.
+	#Range: 6.0 ~ 64.0
+	mobFocusRange = 32.0
+	#Exclude hostile mobs from camera focus regardless of their location or light level.
+	excludeHostileMobs = true
+	#Exclude bats from camera focus regardless of their location or light level.
+	excludeBats = true
+	#Keep counting inactivity while chat or command input is open.
+	idleWhileChatOpen = true
+	#Keep counting inactivity while an inventory or container is open.
+	idleWhileContainerOpen = true
+	#FPS limit while Ambient Camera is active. 0 keeps the normal video setting.
+	ambientFpsLimit = 0
+	#Allow cinematic camera positions behind walls.
+	allowWallClipping = false
+	#Space kept between the camera and a wall after collision detection.
+	#Range: 0.05 ~ 1.0
+	collisionPadding = 0.25
+

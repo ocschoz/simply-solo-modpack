@@ -1,0 +1,28 @@
+{
+    "name": "Old Eye",
+    "icon": "endrem:old_eye",
+    "category": "patchouli:main",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+			"item": "endrem:old_eye",
+            "text": "In order to obtain The Old Eye, you must defeat the Ancient Remnant, a dinosaur skeleton cursed by Pharaoh, which must be awoken with the Necklace of the Desert."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "cataclysm:ancient_remnant",
+			"scale": "0.7",
+			"rotate": "false"
+        },
+		{
+			"type": "patchouli:crafting",
+			"recipe": "cataclysm:desert_eye",
+			"text": "This artifact will help guide you to the Cursed Pyramid, where the Ancient Remnant is asleep deep within the structure."
+        },
+		{
+			"type": "patchouli:spotlight",
+			"item": "cataclysm:necklace_of_the_desert",
+			"text": "The Ancient Remnant is asleep under the Pharaoh's curse. In order to clash with the creature, the Necklace of the Desert must be used. It is obtainable by using the Brush on the Suspicious Sand within the Pyramid."
+        }			
+    ]
+}

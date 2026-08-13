@@ -1,0 +1,13 @@
+name = "More Leads"
+filename = "MoreLeads-forge-1.20.1-1.3.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a0025cfee6c65363687fb131ddc530ea42c59d76"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6469385
+project-id = 610055

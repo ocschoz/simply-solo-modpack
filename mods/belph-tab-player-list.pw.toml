@@ -1,0 +1,13 @@
+name = "Belph Tab(Player List)"
+filename = "belphtab-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "7c593518bf82ed8b804017e375a6cb9bac0cfa10"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6889914
+project-id = 1327856

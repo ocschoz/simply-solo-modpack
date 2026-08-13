@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:hunting_weapon",
+    "enigmaticlegacy:the_infinitum",
+    "enigmaticlegacy:eldritch_pan",
+    "enigmaticaddons:astral_spear",
+    "enigmaticaddons:the_bless",
+    "enigmaticaddons:evil_dagger",
+    "enigmaticaddons:disaster_sword",
+    "dungeonsmobs:mountaineer_axe",
+    "dungeonsmobs:gold_mountaineer_axe",
+    "dungeonsmobs:diamond_mountaineer_axe"
+  ],
+  "incompatible": []
+}

@@ -1,0 +1,13 @@
+name = "FastChunkGen"
+filename = "fastchunkgen-0.1.3-all.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "dfeba010acd31041b417b9affc48006e39d08b79"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8615006
+project-id = 1628827

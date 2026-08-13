@@ -1,0 +1,13 @@
+name = "FullGrownCropMarker"
+filename = "crop-marker-forge-1.20.4-1.2.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a53c15a147a9968a2217de84c9026ac0c48d54f1"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7126484
+project-id = 834457

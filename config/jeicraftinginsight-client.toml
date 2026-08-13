@@ -1,0 +1,7 @@
+
+["Configuracoes Gerais"]
+	#Ativar ou desativar a tooltip extra no JEI.
+	ativarTooltipCrafting = true
+	#Se for true, mostra APENAS os itens que estao faltando.
+	mostrarApenasFaltando = false
+

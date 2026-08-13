@@ -1,0 +1,13 @@
+name = "Spanish Fort"
+filename = "spanish_fort-1.0.0-forge-1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c10a0d1b519ce9a89a7893ad3064b60c0f0f67cc"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6393509
+project-id = 1237237

@@ -1,0 +1,23 @@
+{
+    "name": "Undead Eye",
+    "icon": "endrem:undead_eye",
+    "category": "patchouli:main",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+			"item": "endrem:undead_eye",
+            "text": "In order to obtain The Undead Eye, you must defeat the Ferrous Wroughtnaut, a heavily armored knights that are immune to any damage."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "mowziesmobs:ferrous_wroughtnaut",
+			"scale": "0.7",
+			"rotate": "true"
+        },
+		{
+			"type": "patchouli:crafting",
+			"recipe": "mowzies_cataclysm:wrought_eye",
+			"text": "This artifact will help guide you to the Wrought Chamber, a small structure that generates naturally underground. It is the only place where players find and fight the Ferrous Wroughtnaut."
+        }		
+    ]
+}

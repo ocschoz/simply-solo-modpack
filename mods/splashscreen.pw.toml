@@ -1,0 +1,13 @@
+name = "SplashScreen"
+filename = "splashscreen-1.1.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "85fdafa0069a0cccd129931274b9c4c07f1c10d4"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6385407
+project-id = 1235621

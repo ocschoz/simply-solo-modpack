@@ -1,0 +1,48 @@
+{
+    "name": "Other Guides",
+    "priority": "true",
+    "icon": "minecraft:book",
+    "category": "patchouli:guide",
+    "pages": [
+        {
+            "type": "patchouli:crafting",
+            "recipe": "minecraft:simply_guide",
+            "text": "The guide to $(item)Simply Journey$()."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "irons_spellbooks:patchouli_book",
+            "text": "The guide to $(item)Spells$()."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "simplyswords:runic_grimoire_recipe_shapeless",
+            "text": "The guide to $(item)Simply Swords$()."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "alexsmobs:animal_dictionary",
+            "text": "The guide to $(item)Animals$()."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "luminous_beasts:bestiaryrecipe",
+            "text": "The guide to $(item)Legendary Beasts$()."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "goety:black_book",
+            "text": "The guide to $(item)Goety$()."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "tide:fishing_journal",
+            "text": "The guide to $(item)Fishing$()."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "apotheosis:book",
+            "text": "The guide to $(item)Apotheosis$()."
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+[
+    {
+        "action": "remove",
+        "filter": {
+			"items": ["minecraft:enchanted_book"],
+			"nbt": ".*core_temperature.*" 
+        }
+    }
+]

@@ -1,0 +1,23 @@
+{
+    "name": "Cold Eye",
+    "icon": "endrem:cold_eye",
+    "category": "patchouli:main",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+			"item": "endrem:cold_eye",
+            "text": "In order to obtain The Cold Eye, you must defeat the Frostmaw, a massive-sized creature with impressive speed and powerful ice breath make them near-impossible opponents."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "mowziesmobs:frostmaw",
+			"scale": "0.7",
+			"rotate": "true"
+        },
+		{
+			"type": "patchouli:crafting",
+			"recipe": "mowzies_cataclysm:frostmaw_eye",
+			"text": "This artifact will help guide you to the Frostmaw, a dangerous beast found rarely in snowy areas."
+        }		
+    ]
+}

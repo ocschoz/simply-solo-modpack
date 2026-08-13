@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:weapon",
+    "cataclysm:gauntlet_of_guard",
+    "cataclysm:infernal_forge",
+    "cataclysm:meat_shredder",
+    "legendary_monsters:withered_scythe",
+    "twilightforest:block_and_chain",
+    "enigmaticlegacy:the_infinitum",
+    "cataclysm:gauntlet_of_bulwark",
+    "cataclysm:the_incinerator",
+    "cataclysm:void_forge",
+    "cataclysm:tidal_claws",
+    "farmersdelight:skillet",
+    "cuisinedelight:cuisine_skillet",
+    "legendary_monsters:ender_hammer",
+    "legendary_monsters:mossy_hammer",
+    "legendary_monsters:fiery_jaw"
+  ],
+  "incompatible": []
+}

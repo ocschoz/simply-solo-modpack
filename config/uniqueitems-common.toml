@@ -1,0 +1,13 @@
+
+#This category holds general values that most people will want to change.
+["General Settings"]
+	#Put the identifier of an item here to consider it unique/non-unique
+	"Unique Items" = ["endrem:evil_eye", "endrem:cryptic_eye", "endrem:witch_eye", "endrem:guardian_eye", "endrem:exotic_eye", "endrem:black_eye", "endrem:lost_eye", "endrem:nether_eye", "endrem:cold_eye", "endrem:old_eye", "endrem:wither_eye", "endrem:corrupted_eye", "endrem:undead_eye", "endrem:magical_eye", "endrem:rogue_eye", "endrem:cursed_eye"]
+	#If this is true, then items by default are considered unique and the list above will be used to make items non-unique
+	"Invert List" = false
+	#How many times an item can be created? Example: If an item has unique 4, then it will only show up 4 times in the world
+	#Range: > 1
+	"Default Uniqueness" = 1
+	#This chat message is sent globally to everyone when an item is no longer retrievable. If you put %s in the text, it will be replaced with the item name. If this is empty, no message will be sent.
+	"Message Used When Item is Finished" = "%s has been retrieved!"
+

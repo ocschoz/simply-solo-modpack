@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:melee",
+    "apotheosis:weapon_tome",
+    "twilightforest:block_and_chain",
+    "enigmaticlegacy:the_infinitum"
+  ],
+  "incompatible": []
+}

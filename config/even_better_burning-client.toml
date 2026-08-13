@@ -1,0 +1,6 @@
+
+#Even Better Burning
+[even_better_burning]
+	# Does Flint and Steel have tooltip? (default: true)
+	flintAndSteelTooltip = true
+

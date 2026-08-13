@@ -1,0 +1,13 @@
+name = "Illager Manor"
+filename = "illager_manor-1.0.0-forge-1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ac37ac33344ebca12f7ea09286c35c58f91fd7ca"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6409712
+project-id = 1240240

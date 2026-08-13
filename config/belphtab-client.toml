@@ -1,0 +1,8 @@
+
+#Belph Tab - Client configuration
+[roles]
+	#Show role chip before the player name (e.g. [Dev])
+	showRoleName = false
+	#Color the player's name by the role color (if any)
+	colorNameByRole = true
+

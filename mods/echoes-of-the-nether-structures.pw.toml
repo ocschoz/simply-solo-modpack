@@ -1,0 +1,13 @@
+name = "Echoes of the Nether (Structures)"
+filename = "echoes_of_the_nether_structures-1.00.1 Release-forge-1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "636bd64aa936529f0d67d2267b61d3c9092553cf"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7518454
+project-id = 1442941

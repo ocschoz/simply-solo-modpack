@@ -1,0 +1,13 @@
+name = "Waystones Cooldown"
+filename = "waystonescooldown-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d6470b23afdff6aa2c8b9065d0aab30c4acb8cd1"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7365445
+project-id = 1411142

@@ -1,0 +1,13 @@
+name = "EEEAB's Mobs: Custom Bossbars"
+filename = "eeeabsmobs_bossbars-1.0.1-forge-1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "3327908337b46e0d61bc86bec10fbbd99a0028ce"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7464476
+project-id = 1430698

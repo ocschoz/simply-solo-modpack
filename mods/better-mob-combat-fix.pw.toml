@@ -1,0 +1,13 @@
+name = "Better Mob Combat Fix [BMCFIX]"
+filename = "bmcfix-forge-1.0.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ff874bc85d94019e38065404fd3c064ab6328eff"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7733825
+project-id = 1481291

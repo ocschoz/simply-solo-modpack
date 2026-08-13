@@ -1,0 +1,14 @@
+{
+  "itemTooltipsEnabled": false,
+  "targetHudEnabled": false,
+  "bedTimerEnabled": true,
+  "cropGrowthEnabled": true,
+  "targetHudSmartPositioning": true,
+  "tooltipYOffset": 0.5,
+  "maxRenderDistance": 8.0,
+  "billboardScale": 0.01,
+  "animationsEnabled": true,
+  "animationDurationMs": 150,
+  "detectionMode": "CROSSHAIR",
+  "maxDisplayedTooltips": 5
+}

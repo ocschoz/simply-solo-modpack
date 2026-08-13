@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:tecpatl",
+    "enigmaticaddons:totem_of_malice"
+  ],
+  "incompatible": []
+}

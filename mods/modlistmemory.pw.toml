@@ -1,0 +1,13 @@
+name = "ModListMemory"
+filename = "modlistmemory-forge-1.0.0+1.20.1+bm-0.1.13.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d38e2dea833943a171df67364411f062814e799f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7112105
+project-id = 1180596

@@ -1,0 +1,13 @@
+name = "Sync Fix Core"
+filename = "syncfix-core-0.0.9.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "493554d3544a72dce34a6cb48cda548340efa853"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7941747
+project-id = 1445712

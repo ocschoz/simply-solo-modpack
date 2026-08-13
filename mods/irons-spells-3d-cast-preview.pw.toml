@@ -1,0 +1,13 @@
+name = "Iron's Spells 3D Cast Preview"
+filename = "iss_ponder-forge1.20.1-1.0.3-all.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "5bdff040b6b7a379c36f031d0c89f4bb7f727155"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8584335
+project-id = 1630849

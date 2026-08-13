@@ -1,0 +1,21 @@
+
+[client]
+	#Range: -3000.0 ~ 3000.0
+	xOffset = 0.0
+	#Range: -3000.0 ~ 3000.0
+	yOffset = 0.0
+	#Range: 0.1 ~ 6.0
+	uiScale = 0.7
+	#Range: 100 ~ 500
+	panelWidth = 100
+	#Range: 1.0 ~ 20.0
+	visibleRows = 4.5
+	#Range: 0.1 ~ 1.0
+	globalAlpha = 0.9
+	#Allowed Values: ALWAYS, LOOK_DOWN, STAND_STILL, KEY_HOLD, KEY_TOGGLE
+	activationMode = "ALWAYS"
+	#Allowed Values: ALWAYS, KEY_BIND, STAND_STILL
+	scrollMode = "ALWAYS"
+	#Range: 0.0 ~ 90.0
+	lookDownAngle = 45.0
+

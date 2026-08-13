@@ -1,0 +1,39 @@
+{
+    "name": "Guardian Eye",
+    "icon": "endrem:guardian_eye",
+    "category": "patchouli:main",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "endrem:guardian_eye",
+            "text": "In order to obtain The Guardian Eye, you must defeat the Realm Warden, an ancient war machine left over from a bygone era."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "eeeabsmobs:realm_warden",
+            "scale": "0.7",
+            "rotate": "true"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "eeeabsmobs:coreforge_ruins_eye",
+            "text": "The Realm Warden is found in the deepest part of underground structures, which can only be found by following the Eye of Coreforge Ruins."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "eeeabsmobs:guardian_core",
+            "text": "Defeating the Realm Warden grants a Guardian Core, possessing unknown power (W.I.P)"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "eeeabsmobs:corpse_warlock",
+            "scale": "0.7",
+            "rotate": "true"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "eeeabsmobs:bloody_altar_eye",
+            "text": "Corpse Warlock spawns in the Nether dimension. It possesses the ability to manipulate corpses in combat and can enhance its summoned minions as well as absorb them."
+        }
+    ]
+}

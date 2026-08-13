@@ -1,0 +1,23 @@
+{
+    "name": "Nether Eye",
+    "icon": "endrem:nether_eye",
+    "category": "patchouli:main",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+			"item": "endrem:nether_eye",
+            "text": "In order to obtain The Nether Eye, you must defeat the Nethrite Monstrosity, a large Golem-like boss that uses close range attacks, and shoots lava. It can also heal by sucking in more lava."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "cataclysm:netherite_monstrosity",
+			"scale": "0.7",
+			"rotate": "true"
+        },
+		{
+			"type": "patchouli:crafting",
+			"recipe": "cataclysm:monstrous_eye",
+			"text": "This artifact help encounter a Soul Blacksmith within the Nether. This is a sizeable outdoor-style structure that resembles a Forge."
+        }	
+    ]
+}

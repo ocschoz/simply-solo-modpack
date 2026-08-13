@@ -1,0 +1,16 @@
+name = "Slashh"
+filename = "slashh-1.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "685eb34bdaa1b5e183a035af474f227e6e323db7"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8545717
+project-id = 1621744
+
+[option]
+optional = true

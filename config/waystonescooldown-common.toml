@@ -1,0 +1,22 @@
+
+[general]
+	#Base cooldown time (in seconds).
+	#Range: 0 ~ 3600
+	baseCooldown = 30
+	#Enable cooldown increase based on teleport distance.
+	distanceScaling = true
+	#How many seconds to add per block of distance (0.1 = 1 second per 10 blocks).
+	#Range: 0.001 ~ 10.0
+	secondsPerBlock = 0.05
+	#Maximum possible cooldown time (in seconds).
+	#Range: 0 ~ 86400
+	maxCooldown = 600
+	#Сooldown after death (default=true).
+	cooldownPersistsOnDeath = true
+	#Radius in blocks within which teleportation has no cooldown (0 = disabled).
+	#Range: 0 ~ 100000
+	TeleportRadiusWithoutCooldown = 100
+	#Additional cooldown time added when teleporting between dimensions. This value is added to the base cooldown (in seconds).
+	#Range: 0 ~ 86400
+	dimensionPenalty = 60
+

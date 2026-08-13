@@ -1,0 +1,124 @@
+{
+  "main": {
+    "0": {
+      "title": "Bosses\u0027 Checklist",
+      "icon": {
+        "stack": "{Count:1b,id:\"minecraft:iron_sword\",tag:{Damage:0}}"
+      },
+      "action": {
+        "key": {
+          "key": "key.boss_checklist.open_checklist",
+          "toggle": false
+        }
+      }
+    },
+    "1": {
+      "title": "Open Keybinders",
+      "icon": {
+        "stack": "{Count:1b,id:\"minecraft:stone_button\"}"
+      },
+      "action": {
+        "key": {
+          "key": "key.raws_visual_keybinder.open_screen",
+          "toggle": false
+        }
+      }
+    },
+    "2": {
+      "title": "Toggle Log Stripping",
+      "icon": {
+        "stack": "{Count:1b,id:\"minecraft:oak_log\"}"
+      },
+      "action": {
+        "key": {
+          "key": "key.clienttweaks.disableLogStripping",
+          "toggle": false
+        }
+      }
+    },
+    "3": {
+      "title": "Toggle Night Vision",
+      "icon": {
+        "stack": "{Count:1b,id:\"artifacts:night_vision_goggles\"}"
+      },
+      "action": {
+        "key": {
+          "key": "artifacts.key.night_vision_goggles.toggle",
+          "toggle": false
+        }
+      }
+    },
+    "4": {
+      "title": "Toggle Outline Selection",
+      "icon": {
+        "stack": "{Count:1b,id:\"minecraft:dirt\"}"
+      },
+      "action": {
+        "key": {
+          "key": "key.rmh.removeMouseoverHighlight",
+          "toggle": false
+        }
+      }
+    },
+    "5": {
+      "title": "Advancements",
+      "icon": {
+        "stack": "{Count:1b,id:\"minecraft:paper\"}"
+      },
+      "action": {
+        "key": {
+          "key": "key.advancements",
+          "toggle": false
+        }
+      }
+    },
+    "6": {
+      "title": "Waypoints",
+      "icon": {
+        "stack": "{Count:1b,id:\"waystones:waystone\"}"
+      },
+      "action": {
+        "key": {
+          "key": "gui.xaero_waypoints_key",
+          "toggle": false
+        }
+      }
+    },
+    "7": {
+      "title": "Toggle Click Through",
+      "icon": {
+        "stack": "{Count:1b,id:\"minecraft:item_frame\"}"
+      },
+      "action": {
+        "key": {
+          "key": "key.clickthrough.toggle",
+          "toggle": false
+        }
+      }
+    },
+    "8": {
+      "title": "Run Backpack Upgrade",
+      "icon": {
+        "stack": "{Count:1b,id:\"sophisticatedbackpacks:restock_upgrade\"}"
+      },
+      "action": {
+        "key": {
+          "key": "keybind.sophisticatedbackpacks.inventory_interaction",
+          "toggle": false
+        }
+      }
+    },
+    "9": {
+      "title": "Open Welcome Screen",
+      "icon": {
+        "stack": "{Count:1b,id:\"minecraft:book\"}"
+      },
+      "action": {
+        "command": {
+          "command": "/openguiscreen welcomescreen_welcome",
+          "clipboard": false
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+name = "Enchantment Limiter"
+filename = "enchantlimiter-3.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "24e57255fb2272ab47ba2bd3fe26b94ec6fcc0ed"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4794091
+project-id = 550462

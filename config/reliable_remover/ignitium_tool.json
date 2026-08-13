@@ -1,0 +1,14 @@
+[
+    {
+        "action": "remove",
+        "filter": {
+            "items": [		
+				"cataclysm_tools:ignitium_axe",
+				"cataclysm_tools:ignitium_shovel",
+				"cataclysm_tools:ignitium_pickaxe",
+				"cataclysm_tools:ignitium_hoe"
+			]
+        }
+    }
+]
+

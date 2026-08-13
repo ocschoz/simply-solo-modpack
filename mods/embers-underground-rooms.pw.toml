@@ -1,0 +1,13 @@
+name = "Ember's Underground Rooms | Ancient Dungeons"
+filename = "underground_rooms-2.3.0-1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "cff16484c8b706aa611ce9e9a1b31ed201d2a31b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8548513
+project-id = 1197753

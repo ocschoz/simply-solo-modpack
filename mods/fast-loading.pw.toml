@@ -1,0 +1,13 @@
+name = "Fast Loading"
+filename = "fastloading-0.0.3-1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d839d349b8dc759d6ff1161e00d0c4727a08e9b0"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7478687
+project-id = 1403434

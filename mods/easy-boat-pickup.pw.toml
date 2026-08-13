@@ -1,0 +1,13 @@
+name = "Easy Boat Pickup"
+filename = "easyboatpickup-1.20.1-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d4696aa7634de09915bc7679a3fa29706e5e88c8"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7588738
+project-id = 1456263

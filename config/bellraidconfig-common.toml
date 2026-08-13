@@ -1,0 +1,7 @@
+#Range of giving glowness to raiders (blocks)
+#Range: > 1
+giveRange = 2560
+#Range of raider detection (blocks)
+#Range: > 1
+detectionRange = 2560
+

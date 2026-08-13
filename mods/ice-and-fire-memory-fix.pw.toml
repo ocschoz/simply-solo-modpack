@@ -1,0 +1,13 @@
+name = "Ice and Fire Memory Fix"
+filename = "iaf_memory_fix-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "431d7c918b7d369a69a73f1042f47c4fd3770de0"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8458564
+project-id = 1615379

@@ -1,0 +1,49 @@
+{
+    "name": "Navigation",
+    "icon": "minecraft:compass",
+    "category": "patchouli:guide",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "title": "Navigation",
+            "item": "minecraft:compass",
+            "text": "This section provides information about $(thing)navigation$() in $(item)Simply Journey$()."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "naturescompass:natures_compass_recipe",
+            "text": "A utility item that allows you to search for a $(thing)biome's$() location anywhere in the world and view information about it."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "telepass:diamond_telepass",
+            "text": "When crafted, it has to be given away, dropped, found, or lost - and end up in someone else's inventory. $(br2)Right clicking this $(item)TelePass$() will then teleport the user to the creator of the TelePass unless when the creator is offline or in another dimension. $(br2)There are $(bold)2 tiers$()."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "telepass:gold_telepass"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "telepass:diamond_telepass"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "waystones:waystone",
+            "text": "This mod adds $(item)waystone$() blocks that the player can return to once they've been activated, either through a $(item)Warp Scroll$(), a rechargeable $(item)Warp Stone$(), or by using an existing waystone to hop from one to the other."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "waystones:warp_stone",
+            "text": "Core of the $(item)Waystone$()."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "waystones:warp_dust"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "waystones:warp_scroll"
+        }
+    ]
+}

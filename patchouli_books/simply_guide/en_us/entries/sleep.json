@@ -1,0 +1,37 @@
+{
+    "name": "Sleep",
+    "icon": "minecraft:red_bed",
+    "category": "patchouli:guide",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "title": "Sleep, Reworked",
+            "item": "minecraft:red_bed",
+            "text": "$(item)Midnight Thoughts$() turns sleep from a simple night-skip into an actual gameplay system: $(thing)dreams and nightmares$() for storytelling, $(thing)buffs and rewards$() for progression, and tracked stats for friendly competition between players."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "title": "Comfort System",
+            "item": "minecraft:white_carpet",
+            "text": "How well you sleep depends on the $(thing)comfort$() of your bedroom, scanned in a radius around the bed.$(br2)$(li)$(bold)Raises comfort$(): lighting, carpet, furniture, decoration, structure (walls/roof)$(li)$(bold)Lowers comfort$(): macabre blocks, hostile mobs nearby, sleeping in the dark"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "title": "Well Rested",
+            "item": "minecraft:golden_apple",
+            "text": "Waking up in a comfortable room grants the $(item)Rested$() effect, up to $(bold)5 levels$() depending on comfort.$(br2)$(li)Bonus speed, strength, and mining speed$(li)Extra max HP plus gradual regeneration$(li)Unlike most buffs, the extra HP and regen don't weaken over time - only speed/strength/mining fade through 3 phases"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "title": "Nightmares",
+            "item": "minecraft:soul_lantern",
+            "text": "Let comfort drop too low and the night turns against you.$(br2)$(li)Comfort at or below $(bold)-1$(): you get a $(item)nightmare$() instead of sweet dreams - the calm night sky turns into a slow, pulsing red vignette$(li)Comfort at or below $(bold)-2$(): you can't sleep at all until the room improves"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "title": "Stats & Summary",
+            "item": "minecraft:clock",
+            "text": "The mod quietly tracks your sleep habits over time and shows them on a $(thing)summary screen$() after waking - turning a good night's rest into something worth comparing and bragging about with friends on the server."
+        }
+    ]
+}

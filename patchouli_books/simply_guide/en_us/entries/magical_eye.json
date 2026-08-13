@@ -1,0 +1,23 @@
+{
+    "name": "Magical Eye",
+    "icon": "endrem:magical_eye",
+    "category": "patchouli:main",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+			"item": "endrem:magical_eye",
+            "text": "In order to obtain The Magical Eye, you must defeat Scylla, the Storm Empress."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "cataclysm:scylla",
+			"scale": "0.7",
+			"rotate": "true"
+        },
+		{
+			"type": "patchouli:crafting",
+			"recipe": "cataclysm:storm_eye",
+			"text": "This artifact help locate the Acropolis within deep ocean biomes. Scylla’s chamber is located at the very top of the structure. Upon entering the area, a large Anchor can be seen in the middle of the room. Upon right-clicking it, Scylla will be summoned."
+        }	
+    ]
+}

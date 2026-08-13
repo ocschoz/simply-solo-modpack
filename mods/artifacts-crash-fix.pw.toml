@@ -1,0 +1,13 @@
+name = "Artifacts Crash Fix"
+filename = "artifacts_crash_fix-0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ab94b13b38c803214aa9947075ed456fb5acc83a"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8308960
+project-id = 1585824

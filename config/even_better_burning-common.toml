@@ -1,0 +1,47 @@
+
+#Better Flint and Steel
+["Set values to 0 to disable them"]
+	# How long does Flint and Steel ignite mobs for? (default: 7)
+	#Range: > 0
+	flintAndSteelDuration = 7
+	# How much durability does igniting a mob cost? (default: 2)
+	#Range: > 0
+	flintAndSteelDurability = 2
+	# How long is the cooldown for igniting a mob? (default: 20)
+	#Range: > 0
+	flintAndSteelCooldown = 20
+
+#Better Burning
+["Burning status effect is purely cosmetic"]
+	# Does Fire Resistance remove burning effect? (default: true)
+	betterFireResistance = true
+	# Does 'Burning' status effect have particles? (default: true)
+	burningIsEffect = true
+	# Is 'Burning' status effect ambient? (default: false)
+	burningEffectAmbient = false
+
+#Better Burning Spread
+["Burning mobs may ignite their target"]
+	# Ignore 'spreadChance' and 'spreadDuration' and use regional difficulty instead? (default: true)
+	useRegionalDifficulty = true
+	# How likely are ignited mobs to inflict burning? (default: 0.3f)
+	#Range: 0.0 ~ 1.0
+	spreadChance = 0.30000001192092896
+	# How long burning inflicted by ignited mobs lasts? (default: 5)
+	#Range: > 0
+	spreadDuration = 5
+	# Burning mobs can shoot flaming arrows? (default: true)
+	arrowSpread = true
+	# Burning mobs can throw flaming tridents? (default: true)
+	tridentSpread = true
+	# Burning mobs can throw flaming snowballs? (default: true)
+	snowballSpread = true
+	# Burning mobs can throw flaming potions? (default: true)
+	potionSpread = true
+	# Burning mobs can summon flaming evoker fangs? (default: true)
+	evokerSpread = true
+	# Players can spread fire on attack? (default: false)
+	playerSpread = false
+	# Only unarmed mobs can spread fire on attack? (default: false)
+	unarmedOnlySpread = false
+

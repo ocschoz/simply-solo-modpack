@@ -1,0 +1,12 @@
+#Minimum squared velocity required before the movement optimisation runs. vx*vx + vy*vy + vz*vz >= velocityThresholdSq
+#Slow entities are left to vanilla: their swept volume is already small, so there is nothing to win.
+#Default: 12 (about 3.46 blocks/tick)
+#Range: 0.0 ~ 10000.0
+velocityThresholdSq = 12.0
+#Enable the Optimised Fast Entity Movement optimisation for primed TNT.
+#Default: true
+enableOfemForTnt = true
+#Enable the Optimised Fast Entity Movement optimisation for all entities.
+#Default: true
+enableOfemForAll = true
+

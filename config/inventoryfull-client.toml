@@ -1,0 +1,10 @@
+
+#Client configuration for Inventory Full
+[client]
+	#Horizontal offset from screen center (pixels)
+	#Range: -10000 ~ 10000
+	messageX = 0
+	#Vertical offset from screen center (pixels)
+	#Range: -10000 ~ 10000
+	messageY = 20
+

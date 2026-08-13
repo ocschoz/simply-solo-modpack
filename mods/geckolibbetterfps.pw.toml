@@ -1,0 +1,13 @@
+name = "GeckolibBetterFPS"
+filename = "gbf-1.0.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "abd3c369756db290c14bf8facbca212b1e960b97"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8448863
+project-id = 1455983

@@ -1,0 +1,28 @@
+{
+    "name": "Cursed Eye",
+    "icon": "endrem:cursed_eye",
+    "category": "patchouli:main",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+			"item": "endrem:cursed_eye",
+            "text": "In order to obtain The Cursed Eye, you must defeat Echo of Tyros, it is known for high-damage spells, a multi-phase fight full of flame and summons."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "irons_spellbooks:fire_boss",
+			"scale": "0.7",
+			"rotate": "true"
+        },
+		{
+			"type": "patchouli:crafting",
+			"recipe": "irons_spellbooks:citadel_map",
+			"text": "The ancient map that leads you to the Citadel, an ancient monument in the Nether belonging to a time long past."
+        },
+		{
+			"type": "patchouli:crafting",
+			"recipe": "irons_spellbooks:cinderous_soulcaller",
+			"text": "Cinderous Soulcaller can be used on Cinderous Soul Rune, located in the center of the arena, to summon the boss."
+        }		
+    ]
+}

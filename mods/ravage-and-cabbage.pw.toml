@@ -1,0 +1,13 @@
+name = "Ravage & Cabbage"
+filename = "ravageandcabbage-1.20.1-1.2.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "64124791fe34e15d64f79ae91b3d98f42fed747e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4787340
+project-id = 440594

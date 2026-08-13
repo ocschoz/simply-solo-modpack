@@ -1,0 +1,13 @@
+
+[general]
+	#Enable or disable the break progress HUD
+	enabled = true
+	#Horizontal offset of the percentage text
+	#Range: -500 ~ 500
+	offsetX = 0
+	#Vertical offset of the percentage text
+	#Range: -500 ~ 500
+	offsetY = 10
+	#Use dynamic colors based on progress
+	useColors = true
+

@@ -1,0 +1,13 @@
+name = "Structure Credits"
+filename = "structurecredits-1.20.1-4.0-forge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "7ba008bc067c0ace2e81fe2112327f74f95a41b5"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7236128
+project-id = 978217

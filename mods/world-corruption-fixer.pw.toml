@@ -1,0 +1,13 @@
+name = "Misanthropy's World Corruption Fixer"
+filename = "world_corruption_fixer-0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "edda76aad0e44b337559fde507f6920ac014e33b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8376422
+project-id = 1470993

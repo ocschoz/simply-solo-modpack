@@ -1,0 +1,13 @@
+name = "ATi Structures"
+filename = "Pati_structures_1.3.0_forge_1.20.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "cd26247f14cdb45a894c50380724d1314a346ef4"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6155378
+project-id = 964608

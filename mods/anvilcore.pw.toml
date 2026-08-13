@@ -1,0 +1,13 @@
+name = "AnvilCore 🔨 [DISCONTINUED]"
+filename = "anvilcore-10.1 Release-forge-1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "77b1896694b184ba444a0b4aa19c72cd75f05fc4"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7771412
+project-id = 1470821

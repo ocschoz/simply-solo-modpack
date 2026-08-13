@@ -1,0 +1,13 @@
+name = "Cataclysm Weaponery"
+filename = "CataclysmWeaponery2.0-1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "333dfefa2885966000bcd5a883962cb8ce2ed986"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4960555
+project-id = 792975

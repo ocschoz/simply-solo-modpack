@@ -1,0 +1,13 @@
+name = "Binders! ⌨️"
+filename = "binders-1.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c0926d799a72b9604e95e4154caa6cc01a6492a5"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7390437
+project-id = 1261247

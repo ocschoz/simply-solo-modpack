@@ -1,0 +1,29 @@
+{
+    "name": "Lost Eye",
+    "icon": "endrem:lost_eye",
+    "category": "patchouli:main",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+			"item": "endrem:lost_eye",
+            "text": "In order to obtain The Lost Eye, you must defeat the Chaos Spawner, a sealed skull contained within a large glowing box waiting for a curious adventurer to break the seal."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "dungeonnowloading:chaos_spawner",
+			"scale": "0.7",
+			"rotate": "true"
+        },
+		{
+			"type": "patchouli:spotlight",
+			"item": "minecraft:filled_map",
+			"title": "Labyrinth Map",
+			"text": "The Labyrinth can spawn at any distance from the spawn point. They can be located with dungeon maps, which are obtained from Monster room chests."
+        },
+		{
+			"type": "patchouli:crafting",
+			"recipe": "dungeonnowloading:skull_of_chaos",
+			"text": "To break the seal, the player will have to use the Skull of Chaos in front of the boss, which will make a screeching noise awakening the Chaos Spawner."
+		}
+    ]
+}

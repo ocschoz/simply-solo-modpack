@@ -1,0 +1,32 @@
+{
+  "meta": {
+    "description": "PortalRestrict dimensions config. Edit entries to add or change dimension requirements.",
+    "notes": "Lines starting with \u0027#\u0027 are treated as comments and ignored.",
+    "placeholders": "Use {dimension} and {item} in messages; they will be replaced at runtime."
+  },
+  "globalFallbackMessage": "§cYou need {item} to enter the {dimension}!",
+  "unlockBehavior": {
+    "per_player_unlock": true,
+    "require_item_until_visited": true
+  },
+  "entries": [
+    {
+      "dimension": "minecraft:the_nether",
+      "item": "endrem:undead_soul",
+      "accessDeniedMessage": "§cThe Gates of the Nether remain sealed to thee, unless an Undead Soul be offered.",
+      "gotItemMessage": "§aThe Underworld stirs, and its gates part for thee, heretic! Perdition awaits, mortal. Descend into the flames! The fiery depths of the Nether bid thee welcome."
+    },
+    {
+      "dimension": "example:one",
+      "item": "example:item_one",
+      "accessDeniedMessage": "§cYou need {item} for {dimension}!",
+      "gotItemMessage": "§aYou now wield {item}"
+    },
+    {
+      "dimension": "example:two",
+      "item": "example:item_two",
+      "accessDeniedMessage": "",
+      "gotItemMessage": ""
+    }
+  ]
+}

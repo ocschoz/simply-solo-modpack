@@ -1,0 +1,40 @@
+
+# Shadow Drop: Client Configuration
+#
+[general]
+	# Enable/disable the mod entirely
+	modEnabled = true
+	#
+	# Shadow opacity (255 is fully opaque)
+	#Range: 0 ~ 255
+	shadowAlpha = 155
+	#
+	# Shadow X offset
+	#Range: 0 ~ 4
+	shadowXOffset = 1
+	#
+	# Shadow Y offset
+	#Range: 0 ~ 4
+	shadowYOffset = 1
+
+[cropping]
+	# Crop shadows to hotbar slots (regardless of hotbar color)?
+	cropToHotbarSlots = false
+	#
+	# Crop shadows to visual slots (determined by slotBrColors)?
+	cropToVisualSlots = true
+	#
+	# Only give shadows to items in visual slots (including the hotbar and items picked up by cursor)?
+	onlySlotShadows = false
+	#
+	# RGB hex colors for detection of visual slots (e.g. "#FFFFFF")
+	# This color is searched for in the bottom-right corner pixel wherever an item is rendered
+	slotBrColors = ["#FFFFFF"]
+
+[exceptions]
+	# Items with half shadow alpha (e.g. "#forge:glass", "minecraft:glass")
+	translucentItems = ["#forge:glass", "#forge:glass_panes", "minecraft:beacon"]
+	#
+	# Items with no shadow (e.g. "#forge:glass", "minecraft:glass")
+	transparentItems = []
+

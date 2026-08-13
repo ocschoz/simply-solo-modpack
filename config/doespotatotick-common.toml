@@ -1,0 +1,72 @@
+
+[DoesPotatoTickConfig]
+
+	[DoesPotatoTickConfig."Misc Settings"]
+		#If enabled, Does Potato Tick will send a client message to notify the login players about their mob farm.
+		Notification = true
+		#If enabled, Does Potato Tick will auto-detect the mob farms in your worlds.
+		MobFarmDetection = true
+		#The least count of entities that enables the current chunk to be detected as a mob farm.
+		#Range: > 0
+		MobFarmEntitiesCountThreshold = 25
+		#The type of entities that will be detected.
+		#Do note that all the enemies are always detected no matter what is defined here if you don't disable the DetectEnemies config option below.
+		MobFarmTypes = []
+		#If enabled, Does Potato Tick will keep tracking if your worlds have mob farms of enemies.
+		#Require game restart to take effect.
+		DetectEnemies = true
+
+	[DoesPotatoTickConfig."Entity Ticking Settings"]
+
+		[DoesPotatoTickConfig."Entity Ticking Settings"."General Toggle Settings"]
+			#Master switch for the entity optimization system. Disable to turn off all optimizations.
+			EnableGeneralEntityOptimization = true
+
+		[DoesPotatoTickConfig."Entity Ticking Settings"."Distance Settings"]
+			#Maximum vertical chunk distance where entities will continue ticking.
+			#Range: > 1
+			MaxTickableChunkDistanceInVerticalHeight = 8
+			#Maximum horizontal chunk distance where entities will continue ticking.
+			#Range: > 1
+			MaxTickableChunkDistanceInHorizontalWidth = 8
+
+		[DoesPotatoTickConfig."Entity Ticking Settings"."Only Settings"]
+			#Only optimize living entities (excludes items, projectiles, etc.)
+			OnlyLivingEntitiesOptimizable = false
+			#Only optimize enemies entities.
+			OnlyEnemiesOptimizable = false
+			#Only optimize animals and passive mobs.
+			OnlyAnimalsOptimizable = false
+			#Only apply optimization when no raid is active in the current level.
+			OnlyOptimizableWhenTheCurrentLevelHasNoRaids = false
+
+		[DoesPotatoTickConfig."Entity Ticking Settings"."Always Tick Settings"]
+
+			[DoesPotatoTickConfig."Entity Ticking Settings"."Always Tick Settings".Entities]
+
+				[DoesPotatoTickConfig."Entity Ticking Settings"."Always Tick Settings".Entities."Fast Ignore"]
+					#If true, hostile mobs will ALWAYS tick regardless of distance.
+					EnemiesAlwaysTick = false
+					#If true, projectiles will ALWAYS tick (arrows, fireballs, etc.).
+					ProjectilesAlwaysTick = true
+					#If true, entities that are targeted by projectiles will always tick.
+					ProjectileTargetsAlwaysTick = true
+					#If true, item entities will ALWAYS tick.
+					ItemEntitiesAlwaysTick = false
+					#If true, raiders will always tick if the current level has an active raid.
+					RaidersAlwaysTickWhenTheCurrentLevelHasRaids = true
+					#If true, animals will ALWAYS tick regardless of distance.
+					AnimalsAlwaysTick = false
+
+				[DoesPotatoTickConfig."Entity Ticking Settings"."Always Tick Settings".Entities.Blacklist]
+					#A list of specific entities that will always tick no matter what.
+					EntitiesThatWillAlwaysTick = ["minecraft:wither", "minecraft:ender_dragon", "minecraft:elder_guardian", "bosses_of_mass_destruction:gauntlet", "bosses_of_mass_destruction:lich", "bosses_of_mass_destruction:void_blossom", "bosses_of_mass_destruction:obsidilith", "eeeabsmobs:corpse_warlock", "eeeabsmobs:nameless_guardian", "eeeabsmobs:immortal", "mowziesmobs:frostmaw", "mowziesmobs:ferrous_wroughtnaut", "mowziesmobs:umvuthi", "soulsweapons:accursed_lord_boss", "soulsweapons:returning_knight", "soulsweapons:chaos_monarch", "soulsweapons:moonknight", "soulsweapons:day_stalker", "soulsweapons:night_prowler", "cataclysm:ancient_remnant", "cataclysm:the_leviathan", "cataclysm:the_harbinger", "cataclysm:netherite_monstrosity", "cataclysm:ignis", "cataclysm:ender_guardian", "cataclysm:maledictus", "illageandspillage:spiritcaller", "illageandspillage:magispeller", "illageandspillage:freakager", "conjurer_illager:conjurer", "biomemakeover:adjudicator", "masquerader_mod:masquerader", "dungeonnowloading:chaos_spawner", "aquamirae:captain_cornelia", "graveyard:lich", "irons_spellbooks:dead_king", "alexsmobs:void_worm", "alexsmobs:void_worm_part", "twilightforest:naga", "twilightforest:lich", "twilightforest:ur_ghast", "twilightforest:hydra", "twilightforest:alpha_yeti", "twilightforest:minoshroom", "twilightforest:snow_queen", "twilightforest:knight_phantom", "blue_skies:arachnarch", "blue_skies:alchemist", "blue_skies:summoner", "blue_skies:starlit_crusher", "alexscaves:forsaken", "alexscaves:luxtructosaurus", "alexscaves:hullbreaker", "alexscaves:tremorsaurus", "alexscaves:magnetron", "alexscaves:gum_worm", "iceandfire:gorgon", "iceandfire:hydra", "iceandfire:fire_dragon_male", "iceandfire:fire_dragon_female", "iceandfire:ice_dragon_female", "iceandfire:ice_dragon_male", "iceandfire:lighting_dragon_male", "iceandfire:lighting_dragon_female", "rootoffear:wilted", "ba_bt:land_golem", "ba_bt:end_golem", "ba_bt:sky_golem", "ba_bt:nether_golem", "ba_bt:ocean_golem", "ba_bt:core_golem", "legendary_monsters:overgrown_colossus", "legendary_monsters:ancient_guardian", "legendary_monsters:cloud_golem", "legendary_monsters:frostbitten_golem", "legendary_monsters:possessed_paladin", "legendary_monsters:warped_fungussus", "legendary_monsters:endersent", "legendary_monsters:shulker_mimic", "legendary_monsters:skeletosaurus", "legendary_monsters:withered_abomination", "legendary_monsters:lava_eater", "call_of_yucutan:ah_puch", "call_of_yucutan:kukulkan", "born_in_chaos_v1:lordofpumpkins", "mofus_better_end_:reborn_litch", "mofus_better_end_:forgotten_litch", "block_factorys_bosses:yeti", "block_factorys_bosses:infernal_dragon", "block_factorys_bosses:sandworm", "block_factorys_bosses:underworld_knight", "traveloptics:the_nightwarden", "traveloptics:enraged_dead_king", "dungeonsmobs:elder_brute_enderman", "dungeonsmobs:endersent", "soulsweapons:night_shade", "mofus_better_end_:eye_guardian", "mofus_better_end_:endermite_queen", "dungeonnowloading:fairkeeper_ouros", "dungeonnowloading:fairkeeper_boros", "take-back-the-night:herobrine", "goety:apostle", "goety:redstone_monstrosity", "goety:endersent", "goety:redstone_golem", "cataclysm:ender_golem", "eldritch_end:ominous_eye", "goety:vizier", "monsterexpansion:rhyza", "monsterexpansion:skrythe", "monsterexpansion:leivekilth", "fathomless:archbishop", "irons_spellbooks:fire_boss", "goety:ender_keeper", "hadean_breathe:hadean_blaster", "hadean_breathe:hadean_enforcer", "goety:brood_mother", "goety:crone", "goety:minister", "goety:skull_lord", "goety:wight", "goety:wither_necromancer", "mythsandlegends:black_charro", "mebahelcreaturesdraugr:draugr_overlord", "netherman:azazel", "block_factorys_bosses:kraken", "eeeabsmobs:relic_annihilator", "eeeabsmobs:realm_warden", "iceandfire:dragon_multipart", "minecraft:player"]
+					#All entities from these mod IDs will always tick.
+					EntitiesOfTheModsThatWillAlwaysTick = ["create", "witherstormmod", "traveloptics", "irons_spellbooks", "valkyrienskies", "vs_eureka", "dyairdrop"]
+					#A list of raider entities that will always tick.
+					RaidersThatWillAlwaysTick = []
+
+			[DoesPotatoTickConfig."Entity Ticking Settings"."Always Tick Settings".Dimensions]
+				#A whitelist of dimensions where entity optimization is enabled. Leave empty to allow all.
+				OptimizableDimensions = []
+

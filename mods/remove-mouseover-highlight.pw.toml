@@ -1,0 +1,13 @@
+name = "Remove Mouseover Highlight (Fabric-Forge-NeoForge)"
+filename = "RemoveMouseoverHighlight-1.0.1+MC1.20.x(Forge).jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "5b5f08f667d16c94f8321cb0a85d44f745ea6c96"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4967278
+project-id = 257007

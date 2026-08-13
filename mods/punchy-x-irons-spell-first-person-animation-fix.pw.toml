@@ -1,0 +1,13 @@
+name = "PUNCHY! X IRON'S SPELL : FIRST PERSON ANIMATION FIX"
+filename = "warspire-punchy-irons-casting-fix-1.2.1-forge-1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "2059f4ecf952c004fd790d6ad5f3d96062bf0193"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8470708
+project-id = 1617743

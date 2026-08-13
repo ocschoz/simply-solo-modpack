@@ -1,0 +1,13 @@
+name = "Dungeons Libraries Port"
+filename = "dungeonslibs-1.2.0-all.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "fb99c56cc997b871608159bec4773c533d9f7946"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8494459
+project-id = 1605448

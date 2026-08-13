@@ -1,0 +1,13 @@
+name = "NBT Copy"
+filename = "NBTcopy-FORGE-1.20.1-1.0.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "939c3aa17b7d3ba81881e14e8b661e9b3523be30"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6352773
+project-id = 980715

@@ -1,0 +1,86 @@
+{
+    "name": "Storage",
+    "icon": "minecraft:chest",
+    "category": "patchouli:guide",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "title": "Storage",
+            "item": "minecraft:chest",
+            "text": "This section provides information about $(thing)storage methods$() in $(item)Simply Journey$()."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cardboardbox:crate",
+            "text": "Crouch Right Click the $(item)Cardboard Box$() onto any tile entity, such as $(item)Chests$(), $(item)Furnaces$() and $(item)Spawners$(). $(br2)Break the box using an $(item)Axe$() or your hand fingers. $(br2)Crouch Right Click to remove the box."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "sophisticatedbackpacks:backpack",
+            "text": "$(item)Backpack$() you can place in world, color in different color combinations, upgrade with more inventory and enhance with many functional upgrades. $(br2)Can be accessed using a key press $(bold)'B'$(). $(br2)When in world player can use it the same way they would use a chest."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "sophisticatedbackpacks:backpack",
+            "text": "The basic $(item)backpack$()."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "sophisticatedbackpacks:iron_backpack",
+            "text": "There are $(bold)5 tiers$() - leather, iron, gold, diamond, netherite. $(br2)Each of the tiers adds more storage slots and more upgrade slots."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "sophisticatedbackpacks:upgrade_base",
+            "text": "The basic $(item)upgrade base$(). $(br2)It can be crafted into different upgrades, up to your choice. Check out more in $(item)JEI$()."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "title": "Expanded Storage",
+            "item": "minecraft:chest",
+            "text": "This section expand the storage tiers with $(item)Expanded Storage$(). It adds tiered $(thing)Chests$(), $(thing)Classic Chests$(), $(thing)Barrels$(), and $(thing)Mini Storage$() blocks, from wooden all the way up to netherite."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "title": "Tier Capacity",
+            "item": "minecraft:chest",
+            "text": "Every tier stores more than the last:$(br2)$(li)Wooden - 27 stacks (vanilla)$(li)Copper - 45 stacks$(li)Iron - 54 stacks$(li)Golden - 81 stacks$(li)Diamond - 108 stacks$(li)Obsidian - 108 stacks, blast-proof$(li)Netherite - 135 stacks, blast-proof and fire-resistant"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "title": "Chests",
+            "item": "expandedstorage:iron_chest",
+            "text": "$(item)Chests$() behave like vanilla chests but can $(bold)merge along any axis$() - side by side, front to back, or stacked tall - instead of only forming a long double chest.$(br2)Wooden tier also comes in themed variants: Pumpkin, Present, Bamboo, and Moss."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "title": "Classic Chests",
+            "item": "expandedstorage:old_iron_chest",
+            "text": "$(item)Old Chests$() hold the same capacity as regular chests but occupy the whole block and skip the opening animation entirely - a good pick for big storage rooms since it costs less FPS."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "title": "Barrels",
+            "item": "expandedstorage:iron_barrel",
+            "text": "$(item)Barrels$() work exactly like vanilla barrels, just with more inventory space per tier. $(br2)$(bold)Golden$() barrels/chests are liked by piglins, so nearby piglins won't attack when you open one."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "title": "Mini Storage",
+            "item": "expandedstorage:iron_mini_chest",
+            "text": "$(item)Mini Chests$() and $(item)Mini Barrels$() share the same tier lineup but only hold $(bold)1 stack$(). Great for gifting an item to another player or labeling a single-resource pickup point on a farm."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "title": "Storage Mutator",
+            "item": "expandedstorage:storage_mutator",
+            "text": "A tool with 4 modes for managing containers in-world without breaking them:$(br2)$(li)$(bold)Merge$() - combine two adjacent chests into a double chest$(li)$(bold)Split$() - break a double chest back into singles$(li)$(bold)Rotate$() - rotate a storage block$(li)$(bold)Swap Theme$() - change the container's theme within the same tier$(br2)Tip: rename the tool to \"Sparrow\" in an anvil to unlock extra mini storage styles."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "title": "Conversion Kits",
+            "item": "expandedstorage:wood_to_iron_conversion_kit",
+            "text": "$(item)Conversion Kits$() upgrade an already-placed chest or barrel to the next tier $(bold)without losing its contents$() - no need to empty and rebuild your storage room just to raise capacity."
+        }
+    ]
+}

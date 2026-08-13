@@ -1,0 +1,13 @@
+name = "Dimension Leak Fix"
+filename = "dimension-leak-fix-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "20219fe45832c7ad6ca31b89e1197627cf67b8b6"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7703867
+project-id = 1472850

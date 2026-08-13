@@ -1,0 +1,13 @@
+name = "Pro Placer"
+filename = "ProPlacer-v8.0.3-1.20.1-Forge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "18913e0d25348fc142aec252bc17004eb897e6ad"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6903599
+project-id = 368320

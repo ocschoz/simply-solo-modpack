@@ -1,0 +1,13 @@
+name = "Mod Verifier"
+filename = "modverifier-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "950ea459795bc602f589b1dcb2cb56da395893d7"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8008220
+project-id = 1525296

@@ -1,0 +1,23 @@
+
+#Chronicles Compass settings
+[general]
+	#If true, the compass is consumed when used to locate a target.
+	consumeOnUse = true
+	#If true (and consumeOnUse is true), the compass is only consumed when a target is actually found.
+	#If false, the compass is consumed on any search attempt.
+	consumeOnlyOnSuccess = true
+	#Print the located coordinates to the player's chat.
+	printCoordsInChat = true
+	#Create a Xaero's Minimap waypoint at the located coordinates.
+	#Has no effect if Xaero's Minimap is not installed.
+	createXaeroWaypoint = true
+	#Search radius in BLOCKS when locating a biome.
+	#Range: 256 ~ 100000
+	biomeSearchRadius = 6400
+	#Search radius in CHUNKS when locating a structure.
+	#Range: 8 ~ 1000
+	structureSearchRadiusChunks = 100
+	#If true, only undiscovered structures are located (vanilla /locate behaviour).
+	#If false, the nearest structure is located even if already generated.
+	structureSkipKnown = false
+

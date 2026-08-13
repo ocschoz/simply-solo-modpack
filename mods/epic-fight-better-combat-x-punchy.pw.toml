@@ -1,0 +1,13 @@
+name = "Epic Fight & Better Combat x Punchy!"
+filename = "punchy_epicfight_bettercombat  Ef.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "5c198aed6f8544b54f13b05350688ff5ee41b585"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7789895
+project-id = 1491744

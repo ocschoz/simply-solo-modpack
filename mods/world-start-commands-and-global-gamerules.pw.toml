@@ -1,0 +1,13 @@
+name = "World Start Commands and Global Gamerules"
+filename = "wscommands-2.0.0-forge-1.19-1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f54117c020b4b6701009e62d33a3e1b3825473d3"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6404942
+project-id = 1110532

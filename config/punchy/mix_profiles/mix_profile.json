@@ -1,0 +1,27 @@
+{
+  "animationPackSelections": {
+    "kind:empty_hand": "pack:punchy:punchy",
+    "kind:full_block": "pack:punchy:punchy",
+    "kind:spear": "pack:punchy:punchy",
+    "kind:crossbow": "pack:punchy:punchy",
+    "kind:bow": "pack:punchy:punchy",
+    "kind:fishing_rod": "pack:punchy:punchy",
+    "kind:axe": "pack:punchy:punchy",
+    "kind:flint": "pack:punchy:punchy",
+    "kind:hoe": "pack:punchy:punchy",
+    "kind:shovel": "pack:punchy:punchy",
+    "kind:sword": "pack:punchy:punchy",
+    "kind:mace": "pack:punchy:punchy",
+    "kind:shield": "pack:punchy:punchy",
+    "kind:block": "pack:punchy:punchy",
+    "kind:ingredient": "pack:punchy:punchy",
+    "kind:trident": "pack:punchy:punchy",
+    "kind:spyglass": "pack:punchy:punchy",
+    "specific:minecraft:wind_charge": "pack:punchy:punchy",
+    "kind:torch": "pack:punchy:punchy",
+    "kind:bucket": "pack:punchy:punchy",
+    "kind:food": "pack:punchy:punchy"
+  },
+  "animationPackTypeSelections": {},
+  "mixSpecificForceOverride": {}
+}

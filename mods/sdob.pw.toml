@@ -1,0 +1,13 @@
+name = "Spiral Dungeon of Babel | SDoB"
+filename = "sdob-1.1.0-universal.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e92d0f73a013b82787c2671172ee99d976041bb9"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8451596
+project-id = 1153024

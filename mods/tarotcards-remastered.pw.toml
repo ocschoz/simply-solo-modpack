@@ -1,0 +1,13 @@
+name = "TarotCards: Remastered"
+filename = "tarotcards-2.3.5-forge-1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "bb41f83cc83174656ba8ebb730ffa627d275de71"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8451586
+project-id = 1473837

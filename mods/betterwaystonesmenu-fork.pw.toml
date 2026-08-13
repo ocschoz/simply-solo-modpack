@@ -1,0 +1,13 @@
+name = "BetterWaystonesMenu Fork"
+filename = "BetterWaystonesMenu-1.3.2+mc1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ca0b8fe5c933bd012d59a15facd6e6cb84de8ad5"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8512347
+project-id = 1557515

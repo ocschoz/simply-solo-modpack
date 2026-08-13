@@ -1,0 +1,13 @@
+name = "GeckoLib Animation Optimizer"
+filename = "GeckoLib-Animation-Optimizer-1.20.1-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "fad10b2e20b855f1fce2e7c79b9a50e0970a1875"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8488397
+project-id = 1621007

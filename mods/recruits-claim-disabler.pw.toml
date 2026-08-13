@@ -1,0 +1,13 @@
+name = "Recruits Claim Disabler"
+filename = "recruits-claim-disabler-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "41e02368d54a8fe829cba6aa5ba9dd74ce924965"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8489600
+project-id = 1621262

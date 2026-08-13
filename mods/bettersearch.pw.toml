@@ -1,0 +1,13 @@
+name = "Better Search"
+filename = "bettersearch-forge-1.20.1-1.2.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a0d25ee6c39ba20b76f993cf2519c3d45381e732"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8634486
+project-id = 1640741

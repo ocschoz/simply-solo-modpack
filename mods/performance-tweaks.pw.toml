@@ -1,0 +1,13 @@
+name = "Performance Tweaks"
+filename = "perf_tweaks-forge-1.20.1-1.4.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a6c88b991ca43422cd88badc2109081b85cf5af2"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8166917
+project-id = 1194310

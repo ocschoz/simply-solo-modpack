@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:macuha",
+    "enigmaticaddons:totem_of_malice"
+  ],
+  "incompatible": []
+}

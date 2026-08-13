@@ -1,0 +1,13 @@
+name = "Ward Ring Extension for Iron's Spells 'n Spellbooks (WRE)"
+filename = "wre-1.0.0-forge-1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "2dfd0f9cf764148ed8c6424dedf0adcb553e3c90"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6099816
+project-id = 1182089

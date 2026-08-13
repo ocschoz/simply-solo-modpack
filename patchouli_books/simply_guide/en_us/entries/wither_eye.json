@@ -1,0 +1,28 @@
+{
+    "name": "Wither Eye",
+    "icon": "endrem:wither_eye",
+    "category": "patchouli:main",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+			"item": "endrem:wither_eye",
+            "text": "In order to obtain The Wither Eye, you must defeat the Harbinger, a Wither-like boss requires a Nether Star to be awoken. Right click on it with one, and the boss fight will start. It moves like a Wither, fires missiles, and occasionally activates super laser beam."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "cataclysm:the_harbinger",
+			"scale": "0.7",
+			"rotate": "true"
+        },
+		{
+			"type": "patchouli:crafting",
+			"recipe": "cataclysm:mech_eye",
+			"text": "This artifact will help guide you to the Ancient Factory, where the Harbinger is waiting to be activated."
+        },
+		{
+			"type": "patchouli:spotlight",
+			"item": "minecraft:nether_star",
+			"text": "The Harbinger is deactivated to harness its destructibility. In order to clash with the creature, the Nether Star can be used to activate the creature. It is obtainable by defeating the Wither."
+        }			
+    ]
+}

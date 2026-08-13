@@ -1,0 +1,426 @@
+{
+  "tfar.metalbarrels.client.screens.MetalBarrelScreen": {
+    "enable": true,
+    "offsetX": 0,
+    "offsetY": 0,
+    "textureOffsetX": 0,
+    "textureOffsetY": 0,
+    "texture": "default"
+  },
+  "dev.shadowsoffire.apotheosis.adventure.affix.augmenting.AugmentingScreen": {
+    "enable": true,
+    "offsetX": 0,
+    "offsetY": 0,
+    "textureOffsetX": 0,
+    "textureOffsetY": 0,
+    "texture": "default"
+  },
+  "net.minecraft.client.gui.screens.inventory.ContainerScreen": {
+    "enable": true,
+    "offsetX": 0,
+    "offsetY": 0,
+    "textureOffsetX": 0,
+    "textureOffsetY": 0,
+    "texture": "default"
+  },
+  "net.minecraft.client.gui.screens.inventory.AnvilScreen": {
+    "enable": true,
+    "offsetX": 0,
+    "offsetY": 0,
+    "textureOffsetX": 0,
+    "textureOffsetY": 0,
+    "texture": "default"
+  },
+  "io.redspace.ironsspellbooks.gui.inscription_table.InscriptionTableScreen": {
+    "enable": true,
+    "offsetX": 0,
+    "offsetY": 0,
+    "textureOffsetX": 0,
+    "textureOffsetY": 0,
+    "texture": "default"
+  },
+  "net.p3pp3rf1y.sophisticatedbackpacks.client.gui.BackpackScreen": {
+    "enable": true,
+    "offsetX": 0,
+    "offsetY": 0,
+    "textureOffsetX": 0,
+    "textureOffsetY": 0,
+    "texture": "default"
+  },
+  "vectorwing.farmersdelight.client.gui.CookingPotScreen": {
+    "enable": false,
+    "offsetX": 0,
+    "offsetY": 0,
+    "textureOffsetX": 0,
+    "textureOffsetY": 0,
+    "texture": "default"
+  },
+  "net.minecraft.client.gui.screens.inventory.InventoryScreen": {
+    "enable": true,
+    "offsetX": 0,
+    "offsetY": 0,
+    "textureOffsetX": 0,
+    "textureOffsetY": 0,
+    "texture": "default"
+  },
+  "dev.shadowsoffire.apotheosis.adventure.socket.gem.cutting.GemCuttingScreen": {
+    "enable": true,
+    "offsetX": 0,
+    "offsetY": 0,
+    "textureOffsetX": 0,
+    "textureOffsetY": 0,
+    "texture": "default"
+  },
+  "net.minecraft.client.gui.screens.inventory.SmithingScreen": {
+    "enable": true,
+    "offsetX": 0,
+    "offsetY": 0,
+    "textureOffsetX": 0,
+    "textureOffsetY": 0,
+    "texture": "default"
+  },
+  "top.theillusivec4.curios.client.gui.CuriosScreenV2": {
+    "enable": true,
+    "offsetX": 0,
+    "offsetY": 0,
+    "textureOffsetX": 0,
+    "textureOffsetY": 0,
+    "texture": "default"
+  },
+  "dev.shadowsoffire.apotheosis.adventure.affix.reforging.ReforgingScreen": {
+    "enable": true,
+    "offsetX": 0,
+    "offsetY": 0,
+    "textureOffsetX": 0,
+    "textureOffsetY": 0,
+    "texture": "default"
+  },
+  "net.blay09.mods.waystones.client.gui.screen.WaystoneSelectionScreen": {
+    "enable": false,
+    "offsetX": 0,
+    "offsetY": 0,
+    "textureOffsetX": 0,
+    "textureOffsetY": 0,
+    "texture": "default"
+  },
+  "shiroroku.tarotcards.Item.TarotDeck.TarotDeckScreen": {
+    "enable": true,
+    "offsetX": 0,
+    "offsetY": 0,
+    "textureOffsetX": 0,
+    "textureOffsetY": 0,
+    "texture": "default"
+  },
+  "com.leobeliik.convenientcurioscontainer.gui.ConvenientScreen": {
+    "enable": true,
+    "offsetX": 0,
+    "offsetY": 0,
+    "textureOffsetX": 0,
+    "textureOffsetY": 0,
+    "texture": "default"
+  },
+  "net.blay09.mods.waystones.client.gui.screen.WaystoneSettingsScreen": {
+    "enable": false,
+    "offsetX": 0,
+    "offsetY": 0,
+    "textureOffsetX": 0,
+    "textureOffsetY": 0,
+    "texture": "default"
+  },
+  "net.minecraft.client.gui.screens.inventory.CraftingScreen": {
+    "enable": true,
+    "offsetX": 0,
+    "offsetY": 0,
+    "textureOffsetX": 0,
+    "textureOffsetY": 0,
+    "texture": "default"
+  },
+  "net.minecraft.client.gui.screens.inventory.BlastFurnaceScreen": {
+    "enable": true,
+    "offsetX": 0,
+    "offsetY": 0,
+    "textureOffsetX": 0,
+    "textureOffsetY": 0,
+    "texture": "default"
+  },
+  "dev.shadowsoffire.apotheosis.adventure.affix.salvaging.SalvagingScreen": {
+    "enable": true,
+    "offsetX": 0,
+    "offsetY": 0,
+    "textureOffsetX": 0,
+    "textureOffsetY": 0,
+    "texture": "default"
+  },
+  "io.redspace.ironsspellbooks.gui.arcane_anvil.ArcaneAnvilScreen": {
+    "enable": true,
+    "offsetX": 0,
+    "offsetY": 0,
+    "textureOffsetX": 0,
+    "textureOffsetY": 0,
+    "texture": "default"
+  },
+  "net.minecraft.client.gui.screens.inventory.StonecutterScreen": {
+    "enable": true,
+    "offsetX": 0,
+    "offsetY": 0,
+    "textureOffsetX": 0,
+    "textureOffsetY": 0,
+    "texture": "default"
+  },
+  "net.mehvahdjukaar.supplementaries.client.screens.VariableSizeContainerScreen": {
+    "enable": true,
+    "offsetX": 0,
+    "offsetY": 0,
+    "textureOffsetX": 0,
+    "textureOffsetY": 0,
+    "texture": "default"
+  },
+  "com.talhanation.recruits.client.gui.CommandScreen": {
+    "enable": true,
+    "offsetX": 0,
+    "offsetY": 0,
+    "textureOffsetX": 0,
+    "textureOffsetY": 0,
+    "texture": "default"
+  },
+  "net.minecraft.client.gui.screens.inventory.FurnaceScreen": {
+    "enable": true,
+    "offsetX": 0,
+    "offsetY": 0,
+    "textureOffsetX": 0,
+    "textureOffsetY": 0,
+    "texture": "default"
+  },
+  "tallestegg.guardvillagers.client.gui.GuardInventoryScreen": {
+    "enable": true,
+    "offsetX": 0,
+    "offsetY": 0,
+    "textureOffsetX": 0,
+    "textureOffsetY": 0,
+    "texture": "default"
+  },
+  "dev.shadowsoffire.apotheosis.village.fletching.FletchingScreen": {
+    "enable": true,
+    "offsetX": 0,
+    "offsetY": 0,
+    "textureOffsetX": 0,
+    "textureOffsetY": 0,
+    "texture": "default"
+  },
+  "net.minecraft.client.gui.screens.inventory.SmokerScreen": {
+    "enable": true,
+    "offsetX": 0,
+    "offsetY": 0,
+    "textureOffsetX": 0,
+    "textureOffsetY": 0,
+    "texture": "default"
+  },
+  "net.minecraft.client.gui.screens.inventory.MerchantScreen": {
+    "enable": true,
+    "offsetX": 0,
+    "offsetY": 0,
+    "textureOffsetX": 0,
+    "textureOffsetY": 0,
+    "texture": "default"
+  },
+  "com.dolthhaven.easeldoesit.common.inventory.EaselScreen": {
+    "enable": true,
+    "offsetX": 0,
+    "offsetY": 0,
+    "textureOffsetX": 0,
+    "textureOffsetY": 0,
+    "texture": "default"
+  },
+  "com.github.alexthe666.iceandfire.client.gui.GuiLectern": {
+    "enable": true,
+    "offsetX": 0,
+    "offsetY": 0,
+    "textureOffsetX": 0,
+    "textureOffsetY": 0,
+    "texture": "default"
+  },
+  "fuzs.bagofholding.client.gui.screens.inventory.BagItemScreen": {
+    "enable": true,
+    "offsetX": 0,
+    "offsetY": 0,
+    "textureOffsetX": 0,
+    "textureOffsetY": 0,
+    "texture": "default"
+  },
+  "com.simibubi.create.content.equipment.toolbox.ToolboxScreen": {
+    "enable": true,
+    "offsetX": 0,
+    "offsetY": 0,
+    "textureOffsetX": 0,
+    "textureOffsetY": 0,
+    "texture": "default"
+  },
+  "net.minecraft.client.gui.screens.inventory.ShulkerBoxScreen": {
+    "enable": true,
+    "offsetX": 0,
+    "offsetY": 0,
+    "textureOffsetX": 0,
+    "textureOffsetY": 0,
+    "texture": "default"
+  },
+  "net.mcreator.mofusbetterend.client.gui.EndstoryBookScreen": {
+    "enable": false,
+    "offsetX": 0,
+    "offsetY": 0,
+    "textureOffsetX": 0,
+    "textureOffsetY": 0,
+    "texture": "default"
+  },
+  "net.mehvahdjukaar.sawmill.SawmillScreen": {
+    "enable": true,
+    "offsetX": 0,
+    "offsetY": 0,
+    "textureOffsetX": 0,
+    "textureOffsetY": 0,
+    "texture": "default"
+  },
+  "com.talhanation.recruits.client.gui.DebugInvScreen": {
+    "enable": true,
+    "offsetX": 0,
+    "offsetY": 0,
+    "textureOffsetX": 0,
+    "textureOffsetY": 0,
+    "texture": "default"
+  },
+  "net.imasillylittleguy.cnc.client.gui.FieldGuideCoverScreen": {
+    "enable": true,
+    "offsetX": 0,
+    "offsetY": 0,
+    "textureOffsetX": 0,
+    "textureOffsetY": 0,
+    "texture": "default"
+  },
+  "net.imasillylittleguy.cnc.client.gui.FieldGuideContentsScreen": {
+    "enable": true,
+    "offsetX": 0,
+    "offsetY": 0,
+    "textureOffsetX": 0,
+    "textureOffsetY": 0,
+    "texture": "default"
+  },
+  "net.imasillylittleguy.cnc.client.gui.FieldGuideContents2Screen": {
+    "enable": true,
+    "offsetX": 0,
+    "offsetY": 0,
+    "textureOffsetX": 0,
+    "textureOffsetY": 0,
+    "texture": "default"
+  },
+  "net.imasillylittleguy.cnc.client.gui.FieldGuideContentsWrittenScreen": {
+    "enable": true,
+    "offsetX": 0,
+    "offsetY": 0,
+    "textureOffsetX": 0,
+    "textureOffsetY": 0,
+    "texture": "default"
+  },
+  "net.imasillylittleguy.cnc.client.gui.FieldGuideCreditsScreen": {
+    "enable": true,
+    "offsetX": 0,
+    "offsetY": 0,
+    "textureOffsetX": 0,
+    "textureOffsetY": 0,
+    "texture": "default"
+  },
+  "net.mehvahdjukaar.supplementaries.client.screens.NoticeBoardScreen": {
+    "enable": true,
+    "offsetX": 0,
+    "offsetY": 0,
+    "textureOffsetX": 0,
+    "textureOffsetY": 0,
+    "texture": "default"
+  },
+  "net.minecraft.client.gui.screens.inventory.BrewingStandScreen": {
+    "enable": true,
+    "offsetX": 0,
+    "offsetY": 0,
+    "textureOffsetX": 0,
+    "textureOffsetY": 0,
+    "texture": "default"
+  },
+  "net.minecraft.client.gui.screens.inventory.DispenserScreen": {
+    "enable": true,
+    "offsetX": 0,
+    "offsetY": 0,
+    "textureOffsetX": 0,
+    "textureOffsetY": 0,
+    "texture": "default"
+  },
+  "auviotre.enigmatic.addon.client.screens.AntiqueBagScreen": {
+    "enable": true,
+    "offsetX": 0,
+    "offsetY": 0,
+    "textureOffsetX": 0,
+    "textureOffsetY": 0,
+    "texture": "default"
+  },
+  "net.minecraft.client.gui.screens.inventory.CartographyTableScreen": {
+    "enable": true,
+    "offsetX": 0,
+    "offsetY": 0,
+    "textureOffsetX": 0,
+    "textureOffsetY": 0,
+    "texture": "default"
+  },
+  "org.violetmoon.quark.content.automation.client.screen.TroughScreen": {
+    "enable": true,
+    "offsetX": 0,
+    "offsetY": 0,
+    "textureOffsetX": 0,
+    "textureOffsetY": 0,
+    "texture": "default"
+  },
+  "umpaz.brewinandchewin.client.gui.KegScreen": {
+    "enable": true,
+    "offsetX": 0,
+    "offsetY": 0,
+    "textureOffsetX": 0,
+    "textureOffsetY": 0,
+    "texture": "default"
+  },
+  "com.nosiphus.furniture.client.gui.screen.inventory.BinScreen": {
+    "enable": true,
+    "offsetX": 0,
+    "offsetY": 0,
+    "textureOffsetX": 0,
+    "textureOffsetY": 0,
+    "texture": "default"
+  },
+  "com.mrcrayfish.furniture.client.gui.screen.inventory.FreezerScreen": {
+    "enable": true,
+    "offsetX": 0,
+    "offsetY": 0,
+    "textureOffsetX": 0,
+    "textureOffsetY": 0,
+    "texture": "default"
+  },
+  "me.langyue.equipmentstandard.client.gui.screens.inventory.ReforgeScreen": {
+    "enable": true,
+    "offsetX": 0,
+    "offsetY": 0,
+    "textureOffsetX": 0,
+    "textureOffsetY": 0,
+    "texture": "default"
+  },
+  "com.mrcrayfish.furniture.client.gui.screen.inventory.MailBoxScreen": {
+    "enable": true,
+    "offsetX": 0,
+    "offsetY": 0,
+    "textureOffsetX": 0,
+    "textureOffsetY": 0,
+    "texture": "default"
+  },
+  "net.minecraft.client.gui.screens.inventory.CreativeModeInventoryScreen": {
+    "enable": false,
+    "offsetX": 0,
+    "offsetY": -38,
+    "textureOffsetX": 0,
+    "textureOffsetY": 0,
+    "texture": "default_detached"
+  }
+}

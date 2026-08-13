@@ -1,0 +1,23 @@
+{
+    "name": "Evil Eye",
+    "icon": "endrem:evil_eye",
+    "category": "patchouli:main",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+			"item": "endrem:evil_eye",
+            "text": "In order to obtain The Evil Eye, you must defeat the Masquerader, an evil dude looking down upon the ballroom from above. Defeat the party attendees to battle the Masquerader himself."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "masquerader_mod:masquerader",
+			"scale": "0.7",
+			"rotate": "true"
+        },
+		{
+			"type": "patchouli:spotlight",
+			"item": "masquerader_mod:invitation",
+			"text": "Sometimes, pillager outposts may have a Mysterious Red Envelope. These are invitations sent out by the Masquerader who is organizing a social event for some other Illagers, primarily outpost captains and other high-ranking Illagers. Open the envelope to reveal an invitation to a masked ball from the Masquerader and a map leading to the venue. "
+        }
+    ]
+}

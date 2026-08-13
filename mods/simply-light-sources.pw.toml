@@ -1,0 +1,13 @@
+name = "Simply Light Sources"
+filename = "[1.20.1] Simply Light Sources v1.3.0 (Forge).jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "7ef8f7d2138d86863fa378d305698e9c43f0867b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6954367
+project-id = 925572

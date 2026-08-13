@@ -1,0 +1,23 @@
+{
+    "name": "Corrupted Eye",
+    "icon": "endrem:corrupted_eye",
+    "category": "patchouli:main",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+			"item": "endrem:corrupted_eye",
+            "text": "In order to obtain The Corrupted Eye, you must defeat Meladictus, a body made of transparent turquoise material."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "cataclysm:maledictus",
+			"scale": "0.7",
+			"rotate": "true"
+        },
+		{
+			"type": "patchouli:crafting",
+			"recipe": "cataclysm:cursed_eye",
+			"text": "This artifact help locate the Frost Prison, a dungeon generated in the snow-covered plains of the overworld. It appears to have been built to imprison Maledictus."
+        }	
+    ]
+}

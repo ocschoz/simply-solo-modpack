@@ -1,0 +1,13 @@
+name = "FancyMenu System Interactions Addon"
+filename = "fmsia_forge_1.0.1_MC_1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "32dc24355b1b73a4ea1e767a60b5d3e312d25a5c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5319593
+project-id = 1010285

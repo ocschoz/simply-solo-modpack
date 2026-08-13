@@ -1,0 +1,13 @@
+name = "RoadWeaver"
+filename = "roadweaver-forge-2.1.1-1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "348669d3e691a1c513722ccbc83c69539d23f31b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7517344
+project-id = 1358489

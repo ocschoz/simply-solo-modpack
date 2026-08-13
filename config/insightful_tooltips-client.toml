@@ -1,0 +1,120 @@
+
+# More Tool/Weapon Stats
+["Tools, Bows, Crossbows, Tridents & Horse Armour"]
+	# Show weapon stats for ranged weapons? (default: true)
+	betterBowStatTooltips = true
+	# Show mining speed for all tools? (default: true)
+	betterToolStatTooltips = true
+	# Show stats for Horse Armor? (default: true)
+	horseArmorStats = true
+
+# Better Durability Tooltips
+["Only visible if F3+H 'advanced tooltips' are enabled"]
+	# Show durability % in advanced tooltips? (default: true)
+	showDurabilityPercent = true
+	# Show repair item in advanced tooltips? (default: true)
+	showRepairItem = true
+	# Leave section blank if no repair item exists? (default: false)
+	hideMissingRepairItem = false
+	# Display effective durability on unbreaking tools? (default: true)
+	unbreakingDurability = true
+
+# Food
+["Show more info for food items"]
+	# Show if food is fast / slow to eat? (default: true)
+	showFoodSpeed = true
+	# Show food speed even if normal? (default: false)
+	alwaysShowFoodSpeed = false
+
+# Miscellaneous
+[Miscellaneous]
+	# Colour-code enchantments based on level? (default: true)
+	betterEnchantTooltip = true
+	# Show the effect of protection-type enchantments? (default: true)
+	armourEnchantStats = true
+	# Add 'Can be bonemealed' tooltips? (default: true)
+	showBonemealable = false
+	# Add 'Composter Value' tooltips? (default: true)
+	showComposterValue = false
+	# Add 'Fuel Value' tooltips? (default: false)
+	showFuelValue = false
+	# Always display item dye values? (default: true)
+	betterDyeTooltip = true
+
+# Potion Tooltips
+["'When Applied:' tooltips to all potions missing them"]
+	# Tooltip for Haste Potions? (default: true)
+	hasteTooltip = true
+	# Tooltip for Mining Fatigue Potions? (default: true)
+	miningFatigueTooltip = true
+	# Tooltip for Instant Health Potions? (default: true)
+	instantHealthTooltip = true
+	# Tooltip for Instant Damage Potions? (default: true)
+	instantDamageTooltip = true
+	# Tooltip for Jump Boost Potions? (default: true)
+	jumpBoostTooltip = true
+	# Tooltip for Nausea Potions? (default: true)
+	nauseaTooltip = true
+	# Tooltip for Regeneration Potions? (default: true)
+	regenerationTooltip = true
+	# Tooltip for Resistance / Turtle Master Potions? (default: true)
+	resistanceTooltip = true
+	# Tooltip for Fire Resistance Potions? (default: true)
+	fireResistanceTooltip = true
+	# Tooltip for Water Breathing Potions? (default: true)
+	waterBreathingTooltip = true
+	# Tooltip for Invisibility Potions? (default: true)
+	invisibilityTooltip = true
+	# Tooltip for Blindness Potions? (default: true)
+	blindnessTooltip = true
+	# Tooltip for Night Vision Potions? (default: true)
+	nightVisionTooltip = true
+	# Tooltip for Hunger Potions? (default: true)
+	hungerTooltip = true
+	# Tooltip for Poison Potions? (default: true)
+	poisonTooltip = true
+	# Tooltip for Wither Potions? (default: true)
+	witherTooltip = true
+	# Tooltip for Health Boost Potions? (default: true)
+	healthBoostTooltip = true
+	# Tooltip for Absorption Potions? (default: true)
+	absorptionTooltip = true
+	# Tooltip for Saturation Potions? (default: true)
+	saturationTooltip = true
+	# Tooltip for Glowing Potions? (default: true)
+	glowingTooltip = true
+	# Tooltip for Levitation Potions? (default: true)
+	levitationTooltip = true
+	# Tooltip for Slow Falling Potions? (default: true)
+	slowFallingTooltip = true
+	# Tooltip for Conduit Power Potions? (default: true)
+	conduitPowerTooltip = true
+	# Tooltip for Dolphin's Grace Potions? (default: true)
+	dolphinsGraceTooltip = true
+	# Tooltip for Bad Omen Potions? (default: true)
+	badOmenTooltip = true
+	# Tooltip for Hero of the Village Potions? (default: true)
+	heroOfTheVillage = true
+	# Tooltip for Darkness Potions? (default: true)
+	darknessTooltip = true
+
+# Tweaks
+["Minor tweaks to weapon/armour tooltips"]
+	# Include status effects when calculating tool stats? (default: true)
+	betterStatCalculation = true
+	# Shorten 'armor toughness' and 'resistance'? (default: true)
+	altArmourTooltip = true
+	# Slightly shortens tooltip of loaded crossbows? (default: true)
+	betterLoadedTooltip = true
+	# Tweak a bunch of item rarities? (no effect on gameplay) (default: true)
+	betterItemRarities = true
+
+# Reduced NBT Clutter
+["Also only visible if F3+H 'advanced tooltips' are enabled"]
+	# Remove item IDs from advanced tooltips? (default: true)
+	hideItemIDs = true
+	# Remove NBT tags from advanced tooltips? (default: true)
+	hideItemNBT = true
+	# Remove UUID tags from advanced tooltips? (default: true)
+	hideItemUUID = true
+
